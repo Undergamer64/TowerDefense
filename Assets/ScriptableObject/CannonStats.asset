@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d416dc26ebcf3b04588e4917f356e540, type: 3}
-  m_Name: BaseWeapon
+  m_Name: CannonStats
   m_EditorClassIdentifier: 
   ReloadTime: 1
   Range: 4.5
-  BulletDamage: 1
-  BulletLifeTime: 0.25
+  BulletDamage: 2
+  BulletLifeTime: 1.5
   BulletSize: 1

@@ -8,7 +8,7 @@ public abstract class Weapon : MonoBehaviour
     private WeaponStat _weaponStatBase;
 
     [SerializeField]
-    private GameObject _projectilePrefab;
+    protected GameObject _projectilePrefab;
  
     protected WeaponStat _weaponStat;
     private float _cooldown;
@@ -35,8 +35,7 @@ public abstract class Weapon : MonoBehaviour
 
         if (_cooldown <= 0) 
         {
-            bool success = TryShoot();
-            if (success)
+            if (TryShoot())
             {
                 Shoot();
                 _cooldown = _weaponStat.ReloadTime;
@@ -48,16 +47,12 @@ public abstract class Weapon : MonoBehaviour
 
     private bool TryShoot()
     {
-        List<Collider2D> colliders = Physics2D.OverlapCircleAll(transform.position, _weaponStat.Range).Where(x => x.GetComponent<Enemy>() != null).ToList();
+        List<Collider2D> colliders = Physics2D.OverlapCircleAll(transform.position, _weaponStat.Range)
+            .Where(x => x.GetComponent<Enemy>() is not null).ToList();
 
         _target = GetNearestTarget(colliders);
 
-        if (_target == null)
-        {
-            return false;
-        }
-
-        return true;
+        return _target;
     }
 
     private Transform GetNearestTarget(List<Collider2D> colliders)
@@ -77,4 +72,10 @@ public abstract class Weapon : MonoBehaviour
     }
 
     protected abstract void Shoot();
+
+    public void OnDrawGizmos()
+    {
+        Gizmos.color = Color.black;
+        Gizmos.DrawWireSphere(transform.position, _weaponStatBase.Range);
+    }
 }

@@ -102,7 +102,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Spawner: {fileID: 0}
-  speed: 0.01
+  speed: 2
   life: 1
 --- !u!61 &-2969850487095504562
 BoxCollider2D:

@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour, IPoolableObject<Projectile>
 {
-    private CircleCollider2D _collider;
-    private Transform _transform;
+    protected CircleCollider2D _collider;
+    protected Transform _transform;
 
     public float DespawnCooldown;
     public int Pierce = 1;
@@ -11,8 +11,7 @@ public class Projectile : MonoBehaviour, IPoolableObject<Projectile>
 
     public Weapon Spawner;
 
-    private Pool<Projectile> _pool;
-    public Pool<Projectile> Pool { get => _pool; set => _pool = value; }
+    public Pool<Projectile> Pool { get; set; }
 
     private void Start()
     {
@@ -29,18 +28,20 @@ public class Projectile : MonoBehaviour, IPoolableObject<Projectile>
             Pool.Release(this);
         }
 
+        HitEnemies();
+    }
+
+    protected virtual void HitEnemies()
+    {
         foreach (Collider2D collider in Physics2D.OverlapCircleAll(_transform.position, _collider.radius))
         {
-            if (collider.TryGetComponent(out Enemy enemy))
-            {
-                enemy.TakeDamage(Damage);
-                Pierce--;
-                if (Pierce <= 0)
-                {
-                    Pool.Release(this);
-                    return;
-                }
-            }
+            if (!collider.TryGetComponent(out Enemy enemy)) continue;
+            enemy.TakeDamage(Damage);
+            Pierce--;
+            if (Pierce > 0) continue;
+            Spawner.ProjectilesAlive.Remove(this);
+            Pool.Release(this);
+            return;
         }
     }
 }

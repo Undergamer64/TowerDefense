@@ -2,8 +2,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour, IPoolableObject<Enemy>
 {
-    private Pool<Enemy> _pool;
-    public Pool<Enemy> Pool { get => _pool; set => _pool = value; }
+    public Pool<Enemy> Pool { get; set; }
 
     public EnemiesSpawner Spawner;
 

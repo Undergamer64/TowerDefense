@@ -20,16 +20,12 @@ public class EnemiesSpawner : MonoBehaviour
     {
         _circleCollider = GetComponent<CircleCollider2D>();
         _enemyPool = new ComponentPool<Enemy>(_enemyPrefab, 50, 10);
-        SpawnEnemy();
-        SpawnEnemy();
-        SpawnEnemy();
     }
 
-    public void SpawnEnemy()
+    private void SpawnEnemy()
     {
         Enemy enemy = _enemyPool.Get();
-        enemy.transform.position = Random.onUnitSphere * _circleCollider.radius;
-        enemy.transform.position.Set(enemy.transform.position.x, enemy.transform.position.y, 0);
+        enemy.transform.position = Random.insideUnitCircle.normalized * _circleCollider.radius;
         enemy.Spawner = this;
         EnemiesAlive.Add(enemy);
     }
@@ -38,7 +34,18 @@ public class EnemiesSpawner : MonoBehaviour
     {
         foreach (Enemy enemy in EnemiesAlive)
         {
-            enemy.transform.Translate((_centerTower.position - enemy.transform.position).normalized * enemy.speed);
+            enemy.transform.Translate((_centerTower.position - enemy.transform.position).normalized * (enemy.speed * Time.deltaTime));
         }
+
+        if (EnemiesAlive.Count <= 7)
+        {
+            SpawnEnemy();
+        }
+    }
+    
+    public void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, GetComponent<CircleCollider2D>().radius);
     }
 }
