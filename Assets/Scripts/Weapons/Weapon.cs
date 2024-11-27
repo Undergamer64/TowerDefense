@@ -1,29 +1,31 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public abstract class Weapon : MonoBehaviour
 {
-    [SerializeField]
-    private WeaponStat _weaponStatBase;
+    public WeaponType Type;
 
-    [SerializeField]
-    protected GameObject _projectilePrefab;
+    [SerializeField] protected List<WeaponStat> _upgradeStats;
+
+    [SerializeField] protected GameObject _projectilePrefab;
  
     protected WeaponStat _weaponStat;
-    private float _cooldown;
+    private float _cooldown = 0;
 
     protected Transform _target;
 
     protected ComponentPool<Projectile> _projectilePool;
-    public List<Projectile> ProjectilesAlive;
+    protected List<Projectile> _projectilesAlive = new List<Projectile>();
 
+    public int Level { get; protected set; } = 0;
 
     private void Start()
     {
+        Level = 1;
+        _weaponStat = _upgradeStats[Level - 1];
         _projectilePool = new ComponentPool<Projectile>(_projectilePrefab, 50, 10);
-        _weaponStat = Instantiate(_weaponStatBase);
-        _cooldown = _weaponStat.ReloadTime;
     }
 
     public void Tick()
@@ -41,6 +43,11 @@ public abstract class Weapon : MonoBehaviour
                 _cooldown = _weaponStat.ReloadTime;
             }
         }
+    }
+    
+    protected void RemoveProjectile(Projectile projectile)
+    {
+        _projectilesAlive.Remove(projectile);
     }
 
     public abstract void MoveProjectiles();
@@ -73,9 +80,43 @@ public abstract class Weapon : MonoBehaviour
 
     protected abstract void Shoot();
 
+    protected void SpawnProjectile()
+    {
+        Projectile projectile = _projectilePool.Get();
+        projectile.transform.position = transform.position + (_target.position - transform.position).normalized/10;
+        projectile.DespawnCooldown = _weaponStat.BulletLifeTime; 
+        projectile.Pierce = _weaponStat.Pierce;
+        _projectilesAlive.Add(projectile);
+        projectile.OnDestroy.AddListener(RemoveProjectile);
+    }
+    
     public void OnDrawGizmos()
     {
+        if (!_weaponStat) return;
         Gizmos.color = Color.black;
-        Gizmos.DrawWireSphere(transform.position, _weaponStatBase.Range);
+        Gizmos.DrawWireSphere(transform.position, _weaponStat.Range);
     }
+
+    public virtual bool TryUpgrade()
+    {
+        if (Level >= _upgradeStats.Count)
+        {
+            return false;
+        }
+        
+        _weaponStat = _upgradeStats[Level];
+        
+        Level++;
+        
+        _cooldown = _weaponStat.ReloadTime;
+        
+        return true;
+    }
+}
+
+public enum WeaponType
+{
+    Riffle,
+    Snipper,
+    Cannon
 }

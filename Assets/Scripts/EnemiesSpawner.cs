@@ -1,20 +1,20 @@
 using NUnit.Framework;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.Serialization;
 
 public class EnemiesSpawner : MonoBehaviour
 {
-    [SerializeField]
-    private Transform _centerTower;
+    [SerializeField] private Transform _centerTower;
 
-    [SerializeField]
-    private GameObject _enemyPrefab;
+    [SerializeField] private GameObject _enemyPrefab;
 
     private CircleCollider2D _circleCollider;
 
     private ComponentPool<Enemy> _enemyPool;
-
-    public List<Enemy> EnemiesAlive = new();
+    
+    private List<Enemy> _enemiesAlive = new();
 
     private void Start()
     {
@@ -25,22 +25,27 @@ public class EnemiesSpawner : MonoBehaviour
     private void SpawnEnemy()
     {
         Enemy enemy = _enemyPool.Get();
+        enemy.OnDestroy.AddListener(RemoveEnemy);
         enemy.transform.position = Random.insideUnitCircle.normalized * _circleCollider.radius;
-        enemy.Spawner = this;
-        EnemiesAlive.Add(enemy);
+        _enemiesAlive.Add(enemy);
     }
 
     private void Update()
     {
-        foreach (Enemy enemy in EnemiesAlive)
+        foreach (Enemy enemy in _enemiesAlive)
         {
-            enemy.transform.Translate((_centerTower.position - enemy.transform.position).normalized * (enemy.speed * Time.deltaTime));
+            enemy.transform.Translate((_centerTower.position - enemy.transform.position).normalized * (enemy.Speed * Time.deltaTime));
         }
 
-        if (EnemiesAlive.Count <= 7)
+        if (_enemiesAlive.Count <= 7)
         {
             SpawnEnemy();
         }
+    }
+
+    private void RemoveEnemy(Enemy enemy)
+    {
+        _enemiesAlive.Remove(enemy);
     }
     
     public void OnDrawGizmos()

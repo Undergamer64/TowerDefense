@@ -7,5 +7,6 @@ public class WeaponStat : ScriptableObject
     public float Range = 3f;
     public float BulletDamage = 1f;
     public float BulletLifeTime = 1f;
+    public int Pierce = 1;
     public float BulletSize = 1f;
 }

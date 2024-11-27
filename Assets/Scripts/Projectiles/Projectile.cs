@@ -1,15 +1,16 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Projectile : MonoBehaviour, IPoolableObject<Projectile>
 {
     protected CircleCollider2D _collider;
     protected Transform _transform;
 
+    public UnityEvent<Projectile> OnDestroy;
+    
     public float DespawnCooldown;
     public int Pierce = 1;
     public float Damage = 1;
-
-    public Weapon Spawner;
 
     public Pool<Projectile> Pool { get; set; }
 
@@ -24,11 +25,16 @@ public class Projectile : MonoBehaviour, IPoolableObject<Projectile>
         DespawnCooldown -= Time.deltaTime;
         if (DespawnCooldown < 0 )
         {
-            Spawner.ProjectilesAlive.Remove(this);
-            Pool.Release(this);
+            Despawn();
         }
 
         HitEnemies();
+    }
+
+    protected virtual void Despawn()
+    {
+        OnDestroy.Invoke(this);
+        Pool.Release(this);
     }
 
     protected virtual void HitEnemies()
@@ -39,8 +45,7 @@ public class Projectile : MonoBehaviour, IPoolableObject<Projectile>
             enemy.TakeDamage(Damage);
             Pierce--;
             if (Pierce > 0) continue;
-            Spawner.ProjectilesAlive.Remove(this);
-            Pool.Release(this);
+            Despawn();
             return;
         }
     }

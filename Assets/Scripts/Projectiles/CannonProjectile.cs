@@ -7,9 +7,15 @@ public class CannonProjectile : Projectile
         foreach (Collider2D collider in Physics2D.OverlapCircleAll(_transform.position, _collider.radius))
         {
             if (!collider.TryGetComponent(out Enemy enemy)) continue;
-            Explode();
+            Despawn();
             return;
         }
+    }
+
+    protected override void Despawn()
+    {
+        Explode();
+        base.Despawn();
     }
 
     private void Explode()
@@ -19,8 +25,5 @@ public class CannonProjectile : Projectile
             if (!collider.TryGetComponent(out Enemy enemy)) continue;
             enemy.TakeDamage(Damage);
         }
-        
-        Spawner.ProjectilesAlive.Remove(this);
-        Pool.Release(this);
     }
 }

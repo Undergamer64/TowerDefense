@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d416dc26ebcf3b04588e4917f356e540, type: 3}
-  m_Name: RiffleStats
+  m_Name: RiffleLvL3
   m_EditorClassIdentifier: 
   ReloadTime: 0.25
-  Range: 3
-  BulletDamage: 1
+  Range: 3.75
+  BulletDamage: 1.5
   BulletLifeTime: 0.5
-  BulletSize: 1
+  Pierce: 1
+  BulletSize: 0.25
