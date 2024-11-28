@@ -1,8 +1,5 @@
-using NUnit.Framework;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
-using UnityEngine.Serialization;
 
 public class EnemiesSpawner : MonoBehaviour
 {
@@ -25,6 +22,7 @@ public class EnemiesSpawner : MonoBehaviour
     private void SpawnEnemy()
     {
         Enemy enemy = _enemyPool.Get();
+        enemy.OnDestroy.RemoveAllListeners();
         enemy.OnDestroy.AddListener(RemoveEnemy);
         enemy.transform.position = Random.insideUnitCircle.normalized * _circleCollider.radius;
         _enemiesAlive.Add(enemy);
@@ -37,7 +35,7 @@ public class EnemiesSpawner : MonoBehaviour
             enemy.transform.Translate((_centerTower.position - enemy.transform.position).normalized * (enemy.Speed * Time.deltaTime));
         }
 
-        if (_enemiesAlive.Count <= 7)
+        if (_enemiesAlive.Count <= 1)
         {
             SpawnEnemy();
         }
@@ -46,6 +44,7 @@ public class EnemiesSpawner : MonoBehaviour
     private void RemoveEnemy(Enemy enemy)
     {
         _enemiesAlive.Remove(enemy);
+        _centerTower.GetComponent<PlayerData>().Money++;
     }
     
     public void OnDrawGizmos()

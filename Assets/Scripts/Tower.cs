@@ -25,29 +25,35 @@ public class Tower : MonoBehaviour
         enemy.TakeDamage(1);
         _playerData.Life -= 1;
         if (_playerData.Life > 0) return;
+        _playerData.Life = 0;
+        
+        //END GAME HERE
     }
 
-    public void TryUpgradeWeapons(WeaponType type, int Price = 0)
+    public void TryUpgradeWeapon(WeaponType type)
     {
-        if (_playerData.Money < Price)
-        {
-            return;
-        }
+        Debug.Log(type.ToString());
         
-        List<Weapon> WeaponToUpgrade = Weapons.FindAll(x => x.Type == type);
+        List<Weapon> WeaponsToUpgrade = Weapons.FindAll(x => x.Type == type);
         
         bool success = false;
-        foreach (Weapon weapon in WeaponToUpgrade)
+        Weapon WeaponToUpgrade = null;
+        foreach (Weapon weapon in WeaponsToUpgrade)
         {
-            if (weapon.TryUpgrade())
+            if (weapon.CanUpgrade(_playerData.Money))
             {
+                WeaponToUpgrade = weapon;
                 success = true;
+                break;
             }
         }
-
+        
+        Debug.Log(success);
+        
         if (success)
         {
-            _playerData.Money -= Price;
+            _playerData.Money -= WeaponToUpgrade.GetPrice();
+            WeaponToUpgrade.Upgrade();
         }
     }
 }

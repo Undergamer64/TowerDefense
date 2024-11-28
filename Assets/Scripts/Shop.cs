@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Assertions.Must;
 using UnityEngine.Events;
@@ -20,15 +21,26 @@ public class Shop : MonoBehaviour
         _shopPanel.SetActive(true);
         Time.timeScale = 0;
 
-        List<Weapon> UpgradableWeapons = _tower.Weapons.Where(x => x.Level < 5).ToList();
+        Debug.Log(_tower.Weapons.Count);
+        List<Weapon> UpgradableWeapons = _tower.Weapons.Where(x => x.Level < x.GetMaxUpgradeLevel()).ToList();
         
-        if (UpgradableWeapons.Count < _buttons.Count) return; //   /!\ A CHANGER !!!
+        Debug.Log(UpgradableWeapons.Count);
+        Debug.Log(UpgradableWeapons);
 
         for (int i = 0; i < _buttons.Count; i++)
         {
-            _buttons[i].onClick.RemoveAllListeners();
+            Button Button = _buttons[i];
+            Button.gameObject.SetActive(true);
+            Button.onClick.RemoveAllListeners();
+            Button.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "";
+            if (i >= UpgradableWeapons.Count)
+            {
+                continue;
+            }
             int WeaponIndex = Random.Range(0, UpgradableWeapons.Count);
-            _buttons[i].onClick.AddListener(() => { _tower.TryUpgradeWeapons(UpgradableWeapons[WeaponIndex].Type, 0);});
+            Button.onClick.AddListener(() => { _tower.TryUpgradeWeapon(UpgradableWeapons[WeaponIndex].Type);});
+            Button.onClick.AddListener(() => { Button.gameObject.SetActive(false);});
+            Button.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "Price :" + UpgradableWeapons[WeaponIndex].GetPrice();
         }
     }
 

@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d416dc26ebcf3b04588e4917f356e540, type: 3}
   m_Name: RiffleLvL1
   m_EditorClassIdentifier: 
-  ReloadTime: 0.25
-  Range: 3.5
   BulletDamage: 1
+  Range: 3
+  ReloadTime: 0.25
   BulletLifeTime: 0.5
   Pierce: 1
   BulletSize: 0.25
+  Spread: 10
+  Price: 0

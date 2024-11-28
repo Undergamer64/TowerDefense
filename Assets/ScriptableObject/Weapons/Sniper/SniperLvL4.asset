@@ -10,13 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d416dc26ebcf3b04588e4917f356e540, type: 3}
-  m_Name: RiffleLvL5
+  m_Name: SniperLvL4
   m_EditorClassIdentifier: 
-  BulletDamage: 3
-  Range: 4
-  ReloadTime: 0.125
-  BulletLifeTime: 0.5
-  Pierce: 1
-  BulletSize: 0.25
-  Spread: 10
-  Price: 5
+  BulletDamage: 4.5
+  Range: 4.75
+  ReloadTime: 1.5
+  BulletLifeTime: 0.25
+  Pierce: 8
+  BulletSize: 0.1

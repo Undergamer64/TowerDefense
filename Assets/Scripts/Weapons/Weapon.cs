@@ -18,13 +18,11 @@ public abstract class Weapon : MonoBehaviour
 
     protected ComponentPool<Projectile> _projectilePool;
     protected List<Projectile> _projectilesAlive = new List<Projectile>();
-
+    
     public int Level { get; protected set; } = 0;
 
     private void Start()
     {
-        Level = 1;
-        _weaponStat = _upgradeStats[Level - 1];
         _projectilePool = new ComponentPool<Projectile>(_projectilePrefab, 50, 10);
     }
 
@@ -43,6 +41,16 @@ public abstract class Weapon : MonoBehaviour
                 _cooldown = _weaponStat.ReloadTime;
             }
         }
+    }
+
+    public int GetPrice()
+    {
+        return _upgradeStats[Level].Price;
+    }
+
+    public int GetMaxUpgradeLevel()
+    {
+        return _upgradeStats.Count;
     }
     
     protected void RemoveProjectile(Projectile projectile)
@@ -83,10 +91,22 @@ public abstract class Weapon : MonoBehaviour
     protected void SpawnProjectile()
     {
         Projectile projectile = _projectilePool.Get();
-        projectile.transform.position = transform.position + (_target.position - transform.position).normalized/10;
+
+        float angle = Random.Range(-_weaponStat.Spread/2, _weaponStat.Spread/2) * Mathf.Deg2Rad;
+
+        Vector3 direction = (_target.position - transform.position).normalized;
+        
+        direction = new Vector3(
+            direction.x * Mathf.Cos(angle) - direction.y * Mathf.Sin(angle), 
+            direction.x * Mathf.Sin(angle) + direction.y * Mathf.Cos(angle), 
+            0
+            );
+        
+        projectile.transform.position = transform.position + direction/10;
         projectile.DespawnCooldown = _weaponStat.BulletLifeTime; 
         projectile.Pierce = _weaponStat.Pierce;
         _projectilesAlive.Add(projectile);
+        projectile.OnDestroy.RemoveAllListeners();
         projectile.OnDestroy.AddListener(RemoveProjectile);
     }
     
@@ -97,20 +117,18 @@ public abstract class Weapon : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, _weaponStat.Range);
     }
 
-    public virtual bool TryUpgrade()
+    public virtual void Upgrade()
     {
-        if (Level >= _upgradeStats.Count)
-        {
-            return false;
-        }
-        
         _weaponStat = _upgradeStats[Level];
         
         Level++;
         
         _cooldown = _weaponStat.ReloadTime;
-        
-        return true;
+    }
+
+    public bool CanUpgrade(int Money)
+    {
+        return Level < _upgradeStats.Count && Money >= _upgradeStats[Level].Price;
     }
 }
 

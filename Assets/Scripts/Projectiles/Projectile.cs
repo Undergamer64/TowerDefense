@@ -20,9 +20,9 @@ public class Projectile : MonoBehaviour, IPoolableObject<Projectile>
         _transform = GetComponent<Transform>();
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
-        DespawnCooldown -= Time.deltaTime;
+        DespawnCooldown -= Time.fixedDeltaTime;
         if (DespawnCooldown < 0 )
         {
             Despawn();

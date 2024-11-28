@@ -8,11 +8,6 @@ public class RiffleWeapon : Weapon
         SpawnProjectile();
     }
     
-    public override bool TryUpgrade()
-    {
-        return false;
-    }
-    
     public override void MoveProjectiles()
     {
         foreach (var projectile in _projectilesAlive.Where(projectile => projectile.enabled))
