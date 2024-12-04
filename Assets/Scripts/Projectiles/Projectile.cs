@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -12,6 +14,8 @@ public class Projectile : MonoBehaviour, IPoolableObject<Projectile>
     public int Pierce = 1;
     public float Damage = 1;
 
+    private List<Collider2D> _enemiesHit = new List<Collider2D>();
+    
     public Pool<Projectile> Pool { get; set; }
 
     private void Start()
@@ -34,12 +38,13 @@ public class Projectile : MonoBehaviour, IPoolableObject<Projectile>
     protected virtual void Despawn()
     {
         OnDestroy.Invoke(this);
-        Pool.Release(this);
     }
 
     protected virtual void HitEnemies()
     {
-        foreach (Collider2D collider in Physics2D.OverlapCircleAll(_transform.position, _collider.radius))
+        _enemiesHit.Clear();
+        _enemiesHit = Physics2D.OverlapCircleAll(_transform.position, _collider.radius).ToList();
+        foreach (Collider2D collider in _enemiesHit)
         {
             if (!collider.TryGetComponent(out Enemy enemy)) continue;
             enemy.TakeDamage(Damage);

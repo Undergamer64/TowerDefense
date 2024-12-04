@@ -17,6 +17,6 @@ MonoBehaviour:
   ReloadTime: 1
   BulletLifeTime: 1
   Pierce: 1
-  BulletSize: 1
+  BulletSize: 0.5
   Spread: 0
   Price: 0

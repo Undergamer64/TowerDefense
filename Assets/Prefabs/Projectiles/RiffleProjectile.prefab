@@ -28,8 +28,8 @@ Transform:
   m_GameObject: {fileID: 7244304073032304458}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.5, y: 1.56, z: 0}
-  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -101,10 +101,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f187180f26f4eb74fac34e2247f984e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnDestroy:
+    m_PersistentCalls:
+      m_Calls: []
   DespawnCooldown: 0
   Pierce: 1
   Damage: 1
-  Spawner: {fileID: 0}
 --- !u!58 &7849359964260300474
 CircleCollider2D:
   m_ObjectHideFlags: 0

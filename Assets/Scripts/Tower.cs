@@ -12,7 +12,7 @@ public class Tower : MonoBehaviour
     {
         foreach (Weapon weapon in Weapons)
         {
-            if (weapon.Level == 0) continue;
+            if (!weapon.gameObject.activeSelf || weapon.Level == 0) continue;
             weapon.Tick();
             weapon.MoveProjectiles();
         }

@@ -1,9 +1,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-using UnityEngine.Serialization;
 
-public abstract class Weapon : MonoBehaviour
+public class Weapon : MonoBehaviour
 {
     public WeaponType Type;
 
@@ -16,14 +15,27 @@ public abstract class Weapon : MonoBehaviour
 
     protected Transform _target;
 
+    [SerializeField] protected int _poolCapacity = 50;
+    [SerializeField] protected int _poolPreloadQuantity = 5;
+    
     protected ComponentPool<Projectile> _projectilePool;
     protected List<Projectile> _projectilesAlive = new List<Projectile>();
     
-    public int Level { get; protected set; } = 0;
+    private List<Collider2D> _colliders = new List<Collider2D>();
+    
+    public int Level { get; private set; } = 0;
 
     private void Start()
     {
-        _projectilePool = new ComponentPool<Projectile>(_projectilePrefab, 50, 10);
+        _projectilePool = new ComponentPool<Projectile>(_projectilePrefab, _poolCapacity, _poolPreloadQuantity);
+    }
+
+    private void OnDisable()
+    {
+        for (int i = 0; i < _projectilesAlive.Count;)
+        {
+            RemoveProjectile(_projectilesAlive[i]);
+        }
     }
 
     public void Tick()
@@ -56,25 +68,32 @@ public abstract class Weapon : MonoBehaviour
     protected void RemoveProjectile(Projectile projectile)
     {
         _projectilesAlive.Remove(projectile);
+        _projectilePool.Release(projectile);
     }
 
-    public abstract void MoveProjectiles();
+    public virtual void MoveProjectiles()
+    {
+        foreach (var projectile in _projectilesAlive.Where(projectile => projectile.enabled))
+        {
+            projectile.transform.position += (projectile.transform.position - transform.position).normalized * ((_weaponStat.Range / _weaponStat.BulletLifeTime) * Time.deltaTime);
+        }
+    }
 
     private bool TryShoot()
     {
-        List<Collider2D> colliders = Physics2D.OverlapCircleAll(transform.position, _weaponStat.Range)
+        _colliders = Physics2D.OverlapCircleAll(transform.position, _weaponStat.Range)
             .Where(x => x.GetComponent<Enemy>() is not null).ToList();
 
-        _target = GetNearestTarget(colliders);
+        _target = GetNearestTarget(_colliders);
 
         return _target;
     }
 
-    private Transform GetNearestTarget(List<Collider2D> colliders)
+    private Transform GetNearestTarget(List<Collider2D> targets)
     {
         float minDistance = _weaponStat.Range + 1;
         Transform target = null;
-        foreach (Collider2D collider in colliders) 
+        foreach (Collider2D collider in targets) 
         {
             float distance = Vector3.Distance(collider.transform.position, transform.position);
             if (distance < minDistance) 
@@ -86,7 +105,10 @@ public abstract class Weapon : MonoBehaviour
         return target;
     }
 
-    protected abstract void Shoot();
+    protected virtual void Shoot()
+    {
+        SpawnProjectile();
+    }
 
     protected void SpawnProjectile()
     {
@@ -105,6 +127,7 @@ public abstract class Weapon : MonoBehaviour
         projectile.transform.position = transform.position + direction/10;
         projectile.DespawnCooldown = _weaponStat.BulletLifeTime; 
         projectile.Pierce = _weaponStat.Pierce;
+        projectile.transform.localScale = Vector3.one * _weaponStat.BulletSize;
         _projectilesAlive.Add(projectile);
         projectile.OnDestroy.RemoveAllListeners();
         projectile.OnDestroy.AddListener(RemoveProjectile);
@@ -117,7 +140,7 @@ public abstract class Weapon : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, _weaponStat.Range);
     }
 
-    public virtual void Upgrade()
+    public void Upgrade()
     {
         _weaponStat = _upgradeStats[Level];
         
@@ -135,6 +158,6 @@ public abstract class Weapon : MonoBehaviour
 public enum WeaponType
 {
     Riffle,
-    Snipper,
+    Sniper,
     Cannon
 }

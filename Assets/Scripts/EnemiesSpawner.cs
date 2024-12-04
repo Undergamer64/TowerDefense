@@ -13,6 +13,9 @@ public class EnemiesSpawner : MonoBehaviour
     
     private List<Enemy> _enemiesAlive = new();
 
+    private int _maxEnemiesAlive = 2;
+    //private int _nomberEnemiesKilled = 0;
+    
     private void Start()
     {
         _circleCollider = GetComponent<CircleCollider2D>();
@@ -25,6 +28,7 @@ public class EnemiesSpawner : MonoBehaviour
         enemy.OnDestroy.RemoveAllListeners();
         enemy.OnDestroy.AddListener(RemoveEnemy);
         enemy.transform.position = Random.insideUnitCircle.normalized * _circleCollider.radius;
+        enemy.transform.position += _centerTower.position;
         _enemiesAlive.Add(enemy);
     }
 
@@ -35,7 +39,7 @@ public class EnemiesSpawner : MonoBehaviour
             enemy.transform.Translate((_centerTower.position - enemy.transform.position).normalized * (enemy.Speed * Time.deltaTime));
         }
 
-        if (_enemiesAlive.Count <= 1)
+        if (_enemiesAlive.Count < _maxEnemiesAlive)
         {
             SpawnEnemy();
         }
