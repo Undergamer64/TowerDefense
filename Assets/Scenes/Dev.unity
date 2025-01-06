@@ -489,6 +489,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 119ec84c1cfd60943b95070cfbed5bc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _cards:
+  - {fileID: 1944598765}
+  - {fileID: 1820753003}
+  - {fileID: 1752104240}
+  _tower: {fileID: 873374545}
 --- !u!1 &480900638
 GameObject:
   m_ObjectHideFlags: 0
@@ -1032,6 +1037,9 @@ MonoBehaviour:
   - {fileID: 1199485335}
   - {fileID: 911391240}
   - {fileID: 1587649644}
+  OnWeaponUpgrade:
+    m_PersistentCalls:
+      m_Calls: []
   _playerData: {fileID: 873374547}
 --- !u!114 &873374547
 MonoBehaviour:
@@ -1294,7 +1302,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 0
-  _upgradeStats:
+  _UpgradeStats:
   - {fileID: 11400000, guid: 364958235bf2ab64181a08b1741b9592, type: 2}
   - {fileID: 11400000, guid: 693e2083b5bb0734d98c7148a4672cc5, type: 2}
   - {fileID: 11400000, guid: e1aa80ea26aa0104a8005373934419db, type: 2}
@@ -1304,6 +1312,7 @@ MonoBehaviour:
   _projectilePrefab: {fileID: 7244304073032304458, guid: 037684314b0c4e540958cef3351cd6c2, type: 3}
   _poolCapacity: 40
   _poolPreloadQuantity: 10
+  _Level: 1
 --- !u!1 &919900907
 GameObject:
   m_ObjectHideFlags: 0
@@ -2008,7 +2017,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1199485334
 Transform:
   m_ObjectHideFlags: 0
@@ -2037,7 +2046,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 1
-  _upgradeStats:
+  _UpgradeStats:
   - {fileID: 11400000, guid: e78aadda5d3863e4786035336c5a561e, type: 2}
   - {fileID: 11400000, guid: ed37882cd06ff994591a4b9c59f335b8, type: 2}
   - {fileID: 11400000, guid: cf6abc779369ea44a8f2c33d97a5a96b, type: 2}
@@ -2047,6 +2056,7 @@ MonoBehaviour:
   _projectilePrefab: {fileID: 7244304073032304458, guid: 022a7d72e4025a7488d7ccdf659b7390, type: 3}
   _poolCapacity: 4
   _poolPreloadQuantity: 2
+  _Level: 0
 --- !u!1 &1215539312
 GameObject:
   m_ObjectHideFlags: 0
@@ -2370,7 +2380,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1587649642
 Transform:
   m_ObjectHideFlags: 0
@@ -2399,11 +2409,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 2
-  _upgradeStats:
+  _UpgradeStats:
   - {fileID: 11400000, guid: 678c11ce789343b4caddba170d75139d, type: 2}
   _projectilePrefab: {fileID: 7244304073032304458, guid: 211b5342e4f56e14286ace48eb733a56, type: 3}
   _poolCapacity: 4
   _poolPreloadQuantity: 2
+  _Level: 0
 --- !u!1 &1633688148
 GameObject:
   m_ObjectHideFlags: 0

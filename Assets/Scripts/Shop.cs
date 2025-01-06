@@ -21,7 +21,7 @@ public class Shop : MonoBehaviour
         _shopPanel.SetActive(true);
         Time.timeScale = 0;
 
-        List<Weapon> UpgradableWeapons = _tower.Weapons.Where(x => x.Level < x.GetMaxUpgradeLevel()).ToList();
+        List<Weapon> UpgradableWeapons = _tower.Weapons.Where(x => x._Level < x.GetMaxUpgradeLevel()).ToList();
         
         Debug.Log(UpgradableWeapons);
 
@@ -33,9 +33,11 @@ public class Shop : MonoBehaviour
             Button.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "";
             if (UpgradableWeapons.Count < 1)
             {
+                Button.gameObject.SetActive(false);
                 continue;
             }
             Weapon weapon = UpgradableWeapons[Random.Range(0, UpgradableWeapons.Count)];
+            Button.image.sprite = weapon._UpgradeStats[weapon._Level].CardSprite;
             Button.onClick.AddListener(() => { _tower.TryUpgradeWeapon(weapon.Type);});
             Button.onClick.AddListener(() => { Button.gameObject.SetActive(false);});
             Button.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "Price :" + weapon.GetPrice();

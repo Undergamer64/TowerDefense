@@ -1,12 +1,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class Weapon : MonoBehaviour
 {
     public WeaponType Type;
 
-    [SerializeField] protected List<WeaponStat> _upgradeStats;
+    [FormerlySerializedAs("_upgradeStats")] [SerializeField] public List<WeaponStat> _UpgradeStats;
 
     [SerializeField] protected GameObject _projectilePrefab;
  
@@ -23,11 +24,16 @@ public class Weapon : MonoBehaviour
     
     private List<Collider2D> _colliders = new List<Collider2D>();
     
-    public int Level { get; private set; } = 0;
+    [FormerlySerializedAs("_level")] public int _Level;
 
-    private void Start()
+    private void Awake()
     {
         _projectilePool = new ComponentPool<Projectile>(_projectilePrefab, _poolCapacity, _poolPreloadQuantity);
+        if (_Level > 0)
+        {
+            _weaponStat = _UpgradeStats[_Level];
+            _cooldown = _weaponStat.ReloadTime;
+        }
     }
 
     private void OnDisable()
@@ -57,12 +63,12 @@ public class Weapon : MonoBehaviour
 
     public int GetPrice()
     {
-        return _upgradeStats[Level].Price;
+        return _UpgradeStats[_Level].Price;
     }
 
     public int GetMaxUpgradeLevel()
     {
-        return _upgradeStats.Count;
+        return _UpgradeStats.Count;
     }
     
     protected void RemoveProjectile(Projectile projectile)
@@ -142,16 +148,16 @@ public class Weapon : MonoBehaviour
 
     public void Upgrade()
     {
-        _weaponStat = _upgradeStats[Level];
+        _weaponStat = _UpgradeStats[_Level];
         
-        Level++;
+        _Level++;
         
         _cooldown = _weaponStat.ReloadTime;
     }
 
     public bool CanUpgrade(int Money)
     {
-        return Level < _upgradeStats.Count && Money >= _upgradeStats[Level].Price;
+        return _Level < _UpgradeStats.Count && Money >= _UpgradeStats[_Level].Price;
     }
 }
 

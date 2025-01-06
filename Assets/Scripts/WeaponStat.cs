@@ -11,5 +11,8 @@ public class WeaponStat : ScriptableObject
     public float BulletSize = 1f;
     public float Spread = 0f;
 
+    public Sprite BulletSprite;
+    public Sprite CardSprite;
+    
     public int Price = 5;
 }

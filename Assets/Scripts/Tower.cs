@@ -1,18 +1,29 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
-using UnityEngine.Serialization;
+using UnityEngine.Events;
 
 public class Tower : MonoBehaviour
 {
     public List<Weapon> Weapons = new List<Weapon>();
 
-    [SerializeField] private PlayerData _playerData;
+    public UnityEvent<Weapon> OnWeaponUpgrade = new UnityEvent<Weapon>();
     
+    [SerializeField] private PlayerData _playerData;
+
+    private void Start()
+    {
+        foreach (Weapon weapon in Weapons.Where(weapon => weapon._Level == 0))
+        {
+            weapon.gameObject.SetActive(false);
+        }
+    }
+
     void Update()
     {
         foreach (Weapon weapon in Weapons)
         {
-            if (!weapon.gameObject.activeSelf || weapon.Level == 0) continue;
+            if (!weapon.gameObject.activeSelf || weapon._Level == 0) continue;
             weapon.Tick();
             weapon.MoveProjectiles();
         }
@@ -54,6 +65,7 @@ public class Tower : MonoBehaviour
         {
             _playerData.Money -= WeaponToUpgrade.GetPrice();
             WeaponToUpgrade.Upgrade();
+            OnWeaponUpgrade.Invoke(WeaponToUpgrade);
         }
     }
 }
