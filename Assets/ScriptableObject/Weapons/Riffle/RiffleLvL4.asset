@@ -19,4 +19,6 @@ MonoBehaviour:
   Pierce: 1
   BulletSize: 0.25
   Spread: 10
+  BulletSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  CardSprite: {fileID: -4621413208568463430, guid: 310c20a9c48ef7e4cbed94cb77f1cd07, type: 3}
   Price: 5

@@ -38,8 +38,14 @@ public class Shop : MonoBehaviour
             }
             Weapon weapon = UpgradableWeapons[Random.Range(0, UpgradableWeapons.Count)];
             Button.image.sprite = weapon._UpgradeStats[weapon._Level].CardSprite;
-            Button.onClick.AddListener(() => { _tower.TryUpgradeWeapon(weapon.Type);});
-            Button.onClick.AddListener(() => { Button.gameObject.SetActive(false);});
+            Button.image.SetNativeSize();
+            Button.onClick.AddListener(() =>
+            {
+                if (_tower.TryUpgradeWeapon(weapon.Type))
+                {
+                    Button.gameObject.SetActive(false);
+                }
+            });
             Button.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "Price :" + weapon.GetPrice();
             UpgradableWeapons.Remove(weapon);
         }

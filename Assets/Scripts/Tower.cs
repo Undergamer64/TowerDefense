@@ -41,31 +41,29 @@ public class Tower : MonoBehaviour
         //END GAME HERE
     }
 
-    public void TryUpgradeWeapon(WeaponType type)
+    public bool TryUpgradeWeapon(WeaponType type)
     {
-        Debug.Log(type.ToString());
-        
         List<Weapon> WeaponsToUpgrade = Weapons.FindAll(x => x.Type == type);
         
-        bool success = false;
+        bool canUpgrade = false;
         Weapon WeaponToUpgrade = null;
         foreach (Weapon weapon in WeaponsToUpgrade)
         {
             if (weapon.CanUpgrade(_playerData.Money))
             {
                 WeaponToUpgrade = weapon;
-                success = true;
+                canUpgrade = true;
                 break;
             }
         }
         
-        Debug.Log(success);
-        
-        if (success)
+        if (canUpgrade)
         {
             _playerData.Money -= WeaponToUpgrade.GetPrice();
             WeaponToUpgrade.Upgrade();
             OnWeaponUpgrade.Invoke(WeaponToUpgrade);
         }
+        
+        return canUpgrade;
     }
 }
