@@ -25,7 +25,9 @@ public class Weapon : MonoBehaviour
     private List<Collider2D> _colliders = new List<Collider2D>();
     
     [FormerlySerializedAs("_level")] public int _Level;
-
+    
+    [SerializeField] private Color _gizmoColor = Color.green;
+    
     private void Awake()
     {
         _projectilePool = new ComponentPool<Projectile>(_projectilePrefab, _poolCapacity, _poolPreloadQuantity);
@@ -141,9 +143,11 @@ public class Weapon : MonoBehaviour
     
     public void OnDrawGizmos()
     {
-        if (!_weaponStat) return;
-        Gizmos.color = Color.black;
-        Gizmos.DrawWireSphere(transform.position, _weaponStat.Range);
+        Gizmos.color = _gizmoColor;
+        foreach (WeaponStat stat in _UpgradeStats)
+        {
+            Gizmos.DrawWireSphere(transform.position, stat.Range);
+        }
     }
 
     public void Upgrade()
