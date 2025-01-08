@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d416dc26ebcf3b04588e4917f356e540, type: 3}
-  m_Name: SniperLvL2
+  m_Name: CannonLvLMAX
   m_EditorClassIdentifier: 
-  BulletDamage: 3.5
-  Range: 4.25
-  ReloadTime: 1.5
-  BulletLifeTime: 0.25
-  Pierce: 4
-  BulletSize: 0.1
+  BulletDamage: 2
+  Range: 3.5
+  ReloadTime: 1
+  BulletLifeTime: 1
+  Pierce: 1
+  BulletSize: 0.5
   Spread: 0
   BulletSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  CardSprite: {fileID: 21300000, guid: 316814385cc7d4846a8bbc093171dce4, type: 3}
+  CardSprite: {fileID: 21300000, guid: 54d8bf304182df444954a31c5ca80675, type: 3}
   Price: 5

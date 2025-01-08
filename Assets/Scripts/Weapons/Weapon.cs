@@ -75,7 +75,10 @@ public class Weapon : MonoBehaviour
     
     protected void RemoveProjectile(Projectile projectile)
     {
-        _projectilesAlive.Remove(projectile);
+        while (_projectilesAlive.Contains(projectile))
+        {
+            _projectilesAlive.Remove(projectile);
+        }
         _projectilePool.Release(projectile);
     }
 
