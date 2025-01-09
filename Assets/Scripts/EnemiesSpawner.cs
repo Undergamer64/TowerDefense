@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public enum EnemyType
 {
@@ -14,6 +15,8 @@ public class EnemiesSpawner : MonoBehaviour
 
     [SerializeField] private GameObject _enemyPrefab;
 
+    public UnityEvent OnRoundEnd = new UnityEvent();
+    
     private CircleCollider2D _circleCollider;
 
     private ComponentPool<Enemy> _enemyPool;
@@ -33,6 +36,7 @@ public class EnemiesSpawner : MonoBehaviour
         Enemy enemy = GenerateEnemy();
         enemy.transform.position = Random.insideUnitCircle.normalized * _circleCollider.radius;
         enemy.transform.position += _centerTower.position;
+        enemy._Type = EnemyType.normal;
     }
     
     private void SpawnBigEnemy()
@@ -40,25 +44,27 @@ public class EnemiesSpawner : MonoBehaviour
         //Generate 1 enemy with enhanced health but less speed
         
         Enemy enemy = GenerateEnemy();
-        enemy.Life *= 2f;
-        enemy.Speed *= 0.8f;
+        enemy._Life *= 3f;
+        enemy._Speed *= 0.7f;
         enemy.transform.position = Random.insideUnitCircle.normalized * _circleCollider.radius;
         enemy.transform.localScale *= 1.5f;
         enemy.transform.position += _centerTower.position;
+        enemy._Type = EnemyType.big;
     }
     
     private void SpawnGroupeEnemy()
     {
         //Generate 5 enemies with reduced health but more speed
 
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < 3; i++)
         {
             Enemy enemy = GenerateEnemy();
-            enemy.Life *= 0.5f;
-            enemy.Speed *= 1.2f;
+            enemy._Life *= 0.5f;
+            enemy._Speed *= 1.5f;
             enemy.transform.position = Random.insideUnitCircle.normalized * _circleCollider.radius;
-            enemy.transform.localScale *= 0.8f;
+            enemy.transform.localScale *= 0.5f;
             enemy.transform.position += _centerTower.position;
+            enemy._Type = EnemyType.groupe;
         }
     }
     
@@ -81,12 +87,13 @@ public class EnemiesSpawner : MonoBehaviour
     private Enemy GenerateEnemy()
     {
         Enemy enemy = _enemyPool.Get();
-        enemy.OnDestroy.RemoveAllListeners();
-        enemy.OnDestroy.AddListener(RemoveEnemy);
+        enemy._OnDestroy.RemoveAllListeners();
+        enemy._OnDestroy.AddListener(RemoveEnemy);
         _enemiesAlive.Add(enemy);
         enemy.transform.localScale = _enemyPrefab.transform.localScale;
-        enemy.Life = _enemyPrefab.GetComponent<Enemy>().Life;
-        enemy.Speed = _enemyPrefab.GetComponent<Enemy>().Speed;
+        enemy._Life = _enemyPrefab.GetComponent<Enemy>()._Life;
+        enemy._Speed = _enemyPrefab.GetComponent<Enemy>()._Speed;
+        enemy._Type = EnemyType.normal;
         return enemy;
     }
     
@@ -94,14 +101,29 @@ public class EnemiesSpawner : MonoBehaviour
     {
         foreach (Enemy enemy in _enemiesAlive)
         {
-            enemy.transform.Translate((_centerTower.position - enemy.transform.position).normalized * (enemy.Speed * Time.deltaTime));
+            enemy.transform.Translate((_centerTower.position - enemy.transform.position).normalized * (enemy._Speed * Time.deltaTime));
         }
     }
 
     private void RemoveEnemy(Enemy enemy)
     {
+        switch (enemy._Type)
+        {
+            case EnemyType.big:
+                _centerTower.GetComponent<PlayerData>()._Money += 3;
+                break;
+            case EnemyType.normal:
+                _centerTower.GetComponent<PlayerData>()._Money += 2;
+                break;
+            case EnemyType.groupe:
+                _centerTower.GetComponent<PlayerData>()._Money += 1;
+                break;
+            default:
+                break;
+        }
+        
         _enemiesAlive.Remove(enemy);
-        _centerTower.GetComponent<PlayerData>().Money++;
+        if (_enemiesAlive.Count == 0) OnRoundEnd.Invoke();
     }
     
     public void OnDrawGizmos()

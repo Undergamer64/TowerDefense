@@ -14,6 +14,10 @@ public class Shop : MonoBehaviour
     
     [SerializeField] private Tower _tower;
     
+    [SerializeField] private List<Sprite> _healthUpgradesSprites = new List<Sprite>();
+    
+    [SerializeField] private Button _healButton;
+    
     [SerializeField] private List<Button> _buttons;
     
     public void OpenShop()
@@ -22,8 +26,6 @@ public class Shop : MonoBehaviour
         Time.timeScale = 0;
 
         List<Weapon> UpgradableWeapons = _tower.Weapons.Where(x => x._Level < x.GetMaxUpgradeLevel()).ToList();
-        
-        Debug.Log(UpgradableWeapons);
 
         for (int i = 0; i < _buttons.Count; i++)
         {
@@ -41,14 +43,26 @@ public class Shop : MonoBehaviour
             Button.image.SetNativeSize();
             Button.onClick.AddListener(() =>
             {
-                if (_tower.TryUpgradeWeapon(weapon.Type))
-                {
-                    Button.gameObject.SetActive(false);
-                }
+                if (!_tower.TryUpgradeWeapon(weapon._Type)) return;
+                Button.gameObject.SetActive(false);
             });
             Button.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "Price :" + weapon.GetPrice();
             UpgradableWeapons.Remove(weapon);
         }
+        
+        _healButton.gameObject.SetActive(false);
+        if (_healthUpgradesSprites.Count == 0 || _healButton == null) return;
+        _healButton.gameObject.SetActive(true);
+        _healButton.onClick.RemoveAllListeners();
+        int HealIndex = Random.Range(0, _healthUpgradesSprites.Count);
+        _healButton.image.sprite = _healthUpgradesSprites[HealIndex];
+        _healButton.image.SetNativeSize();
+        _healButton.onClick.AddListener(() =>
+        {
+            if (!_tower.TryHeal(HealIndex)) return;
+            _healButton.gameObject.SetActive(false);
+        });
+        _healButton.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "Price :" + (HealIndex + 2) * 5;
     }
 
     public void CloseShop()

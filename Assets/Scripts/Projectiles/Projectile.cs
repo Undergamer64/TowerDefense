@@ -16,7 +16,7 @@ public class Projectile : MonoBehaviour, IPoolableObject<Projectile>
 
     private List<Collider2D> _enemiesHit = new List<Collider2D>();
     
-    public Pool<Projectile> Pool { get; set; }
+    public Pool<Projectile> _Pool { get; set; }
 
     private void Start()
     {

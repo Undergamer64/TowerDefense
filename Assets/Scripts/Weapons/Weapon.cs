@@ -5,7 +5,7 @@ using UnityEngine.Serialization;
 
 public class Weapon : MonoBehaviour
 {
-    public WeaponType Type;
+    [FormerlySerializedAs("Type")] public WeaponType _Type;
 
     [FormerlySerializedAs("_upgradeStats")] [SerializeField] public List<WeaponStat> _UpgradeStats;
 
@@ -95,7 +95,17 @@ public class Weapon : MonoBehaviour
         _colliders = Physics2D.OverlapCircleAll(transform.position, _weaponStat.Range)
             .Where(x => x.GetComponent<Enemy>() is not null).ToList();
 
-        _target = GetNearestTarget(_colliders);
+        _target = null;
+        
+        switch (_Type)
+        {
+            case WeaponType.Sniper:
+                _target = GetBiggestTarget(_colliders);
+                break;
+            default:
+                _target = GetNearestTarget(_colliders);
+                break;
+        }
 
         return _target;
     }
@@ -114,6 +124,30 @@ public class Weapon : MonoBehaviour
             }
         }
         return target;
+    }
+
+    public Transform GetBiggestTarget(List<Collider2D> targets)
+    {
+        bool typeBig = false;
+        float maxHP = -1;
+        List<Collider2D> colliders = new List<Collider2D>();
+        foreach (Collider2D collider in targets)
+        {
+            if (!collider.TryGetComponent(out Enemy enemy)) continue;
+
+            if (Mathf.Approximately(enemy._Life, maxHP) || (typeBig && enemy._Type == EnemyType.big))
+            {
+                colliders.Add(collider);
+            }
+            else if (enemy._Life > maxHP)
+            {
+                if (enemy._Type == EnemyType.big) typeBig = true;
+                colliders.Clear();
+                colliders.Add(collider);
+                maxHP = enemy._Life;
+            }
+        }
+        return GetNearestTarget(colliders);
     }
 
     protected virtual void Shoot()

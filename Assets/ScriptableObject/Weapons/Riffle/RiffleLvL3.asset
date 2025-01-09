@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d416dc26ebcf3b04588e4917f356e540, type: 3}
   m_Name: RiffleLvL3
   m_EditorClassIdentifier: 
-  BulletDamage: 2
+  BulletDamage: 1
   Range: 3.5
-  ReloadTime: 0.1666667
+  ReloadTime: 0.15
   BulletLifeTime: 0.5
   Pierce: 1
   BulletSize: 0.25
-  Spread: 10
+  Spread: 14
   BulletSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   CardSprite: {fileID: -1953329780351175266, guid: 44e744f385d3ffb41a1cfdbcb4cfa1a2, type: 3}
-  Price: 5
+  Price: 30

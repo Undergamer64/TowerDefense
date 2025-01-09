@@ -1,22 +1,25 @@
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.Serialization;
 
 public class Enemy : MonoBehaviour, IPoolableObject<Enemy>
 {
-    public Pool<Enemy> Pool { get; set; }
+    public Pool<Enemy> _Pool { get; set; }
 
-    public UnityEvent<Enemy> OnDestroy;
+    [FormerlySerializedAs("OnDestroy")] public UnityEvent<Enemy> _OnDestroy;
 
-    public float Speed = 2f;
-    public float Life = 2f;
+    public EnemyType _Type;
+    
+    [FormerlySerializedAs("Speed")] public float _Speed = 2f;
+    [FormerlySerializedAs("Life")] public float _Life = 2f;
 
     public void TakeDamage(float damage)
     {
-        Life -= damage;
-        if (Life <= 0)
+        _Life -= damage;
+        if (_Life <= 0)
         {
-            OnDestroy.Invoke(this);
-            Pool.Release(this);
+            _OnDestroy.Invoke(this);
+            _Pool.Release(this);
         }
     }
 }

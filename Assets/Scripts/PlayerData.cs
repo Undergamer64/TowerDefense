@@ -1,18 +1,19 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class PlayerData : MonoBehaviour
 {
-    public int Life = 5;
-    public int Money;
+    [FormerlySerializedAs("Life")] public int _Life = 5;
+    [FormerlySerializedAs("Money")] public int _Money;
 
     [SerializeField] private TextMeshProUGUI _moneyText;
     [SerializeField] private TextMeshProUGUI _lifeText;
     
     public void Update()
     {
-        _moneyText.text = "Money : " + Money.ToString();
-        _lifeText.text = "Life : " + Life.ToString();
+        _moneyText.text = "Money : " + _Money.ToString();
+        _lifeText.text = "Life : " + _Life.ToString();
     }
     
 }

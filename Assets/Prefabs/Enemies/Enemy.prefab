@@ -101,9 +101,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42378c8bd8763b24ead53f2108d59876, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Spawner: {fileID: 0}
-  speed: 2
-  life: 2
+  OnDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+  Speed: 2
+  Life: 2
 --- !u!61 &-2969850487095504562
 BoxCollider2D:
   m_ObjectHideFlags: 0

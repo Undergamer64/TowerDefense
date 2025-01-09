@@ -2,10 +2,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.Serialization;
 using Random = UnityEngine.Random;
 
 public class WaveManager : MonoBehaviour
 {
+    [SerializeField] private Shop _shop;
+    
     [SerializeField] private int _normalEnemyCost = 1;
     [SerializeField] private int _bigEnemyCost = 2;
     [SerializeField] private int _groupeEnemyCost = 2;
@@ -15,19 +18,22 @@ public class WaveManager : MonoBehaviour
     [SerializeField] private int _maxEnemySlots = 5;
     private int _enemySlots;
     
-    [SerializeField] private float _maxRoundCooldown = 3;
+    [SerializeField] private float _maxRoundCooldown = 2;
     private float _roundCooldown;
     private bool _isRoundFinished;
     
-    [SerializeField] private float _maxspawnCooldown = 0.5f;
+    private bool _spawning = true;
+    
+    [FormerlySerializedAs("_maxspawnCooldown")] [SerializeField] private float _maxSpawnCooldown = 0.5f;
     private float _spawnCooldown;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         _roundCooldown = _maxRoundCooldown;
-        _spawnCooldown = _maxspawnCooldown;
+        _spawnCooldown = _maxSpawnCooldown;
         _enemySlots = _maxEnemySlots;
+        _spawner.OnRoundEnd.AddListener(RoundFinished);
     }
 
     // Update is called once per frame
@@ -39,13 +45,15 @@ public class WaveManager : MonoBehaviour
             if (!(_roundCooldown <= 0)) return;
             _enemySlots = _maxEnemySlots;
             _isRoundFinished = false;
+            _spawning = true;
             _roundCooldown = _maxRoundCooldown;
+            _shop.OpenShop();
         }
-        else
+        else if (_spawning)
         {
             _spawnCooldown -= Time.deltaTime;
             if (!(_spawnCooldown <= 0)) return;
-            _spawnCooldown = _maxspawnCooldown;
+            _spawnCooldown = _maxSpawnCooldown;
             TrySpawnEnemy();
         }
     }
@@ -53,8 +61,6 @@ public class WaveManager : MonoBehaviour
     private void TrySpawnEnemy()
     {
         List<EnemyType> enemyTypes = Enum.GetValues(typeof(EnemyType)).Cast<EnemyType>().ToList();
-
-        Debug.Log(enemyTypes.Count);
         
         for (int i = 0; i < enemyTypes.Count; i++)
         {
@@ -79,18 +85,24 @@ public class WaveManager : MonoBehaviour
 
             if (_enemySlots - slotUsed < 0)
             {
-                Debug.Log(slotUsed);
                 enemyTypes.RemoveAt(typeIndex);
                 continue;
             }
             
             _enemySlots -= slotUsed;
             _spawner.SpawnEnemy(enemyTypes[typeIndex]);
-            _spawnCooldown = _maxspawnCooldown;
+            _spawnCooldown = _maxSpawnCooldown;
             return;
         }
         _roundCooldown = _maxRoundCooldown;
-        _isRoundFinished = true;
         _maxEnemySlots += 5;
+        _maxSpawnCooldown *= 0.95f;
+        _spawning = false;
+    }
+
+    private void RoundFinished()
+    {
+        if (_spawning) return;
+        _isRoundFinished = true;
     }
 }
