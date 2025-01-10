@@ -1,6 +1,4 @@
-﻿using UnityEngine;
-
-public interface IPoolableObject<T> where T : IPoolableObject<T>
+﻿public interface IPoolableObject<T> where T : IPoolableObject<T>
 {
     public Pool<T> _Pool { get; set; }
 

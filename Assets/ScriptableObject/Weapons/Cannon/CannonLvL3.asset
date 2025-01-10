@@ -22,4 +22,4 @@ MonoBehaviour:
   ExplosionRange: 3
   BulletSprite: {fileID: 21300000, guid: d1be3763d8cfcbd418f4a3ed327156d4, type: 3}
   CardSprite: {fileID: 21300000, guid: b86d313a86303fb439005fea35a4efa7, type: 3}
-  Price: 5
+  Price: 60

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9c1601eb9b75d84429df18d064f5267b
+guid: 4dd28baa99ed00f4783fd527ca3b7c2a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6470653568274419442
-    second: Town_0
+      213: 5670732621190257608
+    second: Money_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,23 +126,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Town_0
+      name: Money_0
       rect:
         serializedVersion: 2
-        x: 163
-        y: 0
-        width: 646
-        height: 1080
+        x: 40
+        y: 878
+        width: 43
+        height: 71
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e01b366dcde9336a0800000000000000
-      internalID: -6470653568274419442
+      spriteID: 8cbd34e264d72be40800000000000000
+      internalID: 5670732621190257608
       vertices: []
       indices: 
       edges: []
@@ -152,7 +152,7 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Town_0: -6470653568274419442
+      Money_0: 5670732621190257608
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

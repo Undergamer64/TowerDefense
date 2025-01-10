@@ -12,8 +12,8 @@ public class PlayerData : MonoBehaviour
     
     public void Update()
     {
-        _moneyText.text = "Money : " + _Money.ToString();
-        _lifeText.text = "Life : " + _Life.ToString();
+        _moneyText.text = _Money.ToString();
+        _lifeText.text = _Life.ToString();
     }
     
 }

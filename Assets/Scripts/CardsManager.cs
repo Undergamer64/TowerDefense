@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class CardsManager : MonoBehaviour
 {
+    [SerializeField] private List<CardUI> _cardUis = new();
     [SerializeField] private List<Button> _cards = new List<Button>();
     private List<bool> _cardsActive = new List<bool>();
     
@@ -29,6 +30,9 @@ public class CardsManager : MonoBehaviour
             
             _cards[cardIndex].onClick.AddListener(() => { ChangeCardState(cardIndex);});
             
+            _cardUis[cardIndex].OnEnter.AddListener((card) => { HighlightCard(card);});
+            _cardUis[cardIndex].OnExit.AddListener((card) => { DeHighlightCard(card);});
+            
             _cardsActive.Add(false);
         }
         
@@ -49,6 +53,16 @@ public class CardsManager : MonoBehaviour
         }
     }
 
+    private void HighlightCard(CardUI card)
+    {
+        card.transform.SetAsLastSibling();
+    }
+
+    private void DeHighlightCard(CardUI card)
+    {
+        card.transform.SetSiblingIndex(_cardUis.IndexOf(card));
+    }
+    
     private void WeaponChangeSprite(Weapon weaponUpgraded)
     {
         if (_currentWeaponsDisplayed.Contains(weaponUpgraded))
