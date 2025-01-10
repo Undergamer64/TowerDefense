@@ -5,6 +5,8 @@ using UnityEngine.Events;
 
 public class Tower : MonoBehaviour
 {
+    [SerializeField] private GameObject LoseMenu;
+    
     public List<Weapon> Weapons = new List<Weapon>();
 
     public UnityEvent<Weapon> OnWeaponUpgrade = new UnityEvent<Weapon>();
@@ -65,8 +67,9 @@ public class Tower : MonoBehaviour
         enemy.TakeDamage(1);
         if (_playerData._Life > 0) return;
         _playerData._Life = 0;
-        
-        //END GAME HERE
+
+        Time.timeScale = 0;
+        LoseMenu.SetActive(true);
     }
 
     public bool TryUpgradeWeapon(WeaponType type)
