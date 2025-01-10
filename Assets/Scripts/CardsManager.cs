@@ -118,6 +118,6 @@ public class CardsManager : MonoBehaviour
             _weaponsDisplayedText.text = _weaponsEnabled.ToString() + '/' + _maxWeaponsEnabled.ToString() + " Active Cards";
         }
 
-        _cards[cardIndex].image.color = _cardsActive[cardIndex] ? Color.gray : Color.white;
+        _cards[cardIndex].image.color = !_cardsActive[cardIndex] ? Color.gray : Color.white;
     }
 }

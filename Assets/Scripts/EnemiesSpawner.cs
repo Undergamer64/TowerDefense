@@ -26,7 +26,7 @@ public class EnemiesSpawner : MonoBehaviour
     private void Start()
     {
         _circleCollider = GetComponent<CircleCollider2D>();
-        _enemyPool = new ComponentPool<Enemy>(_enemyPrefab, 50, 10);
+        _enemyPool = new ComponentPool<Enemy>(_enemyPrefab, 50, 10, transform);
     }
 
     private void SpawnNormalEnemy()
@@ -44,7 +44,7 @@ public class EnemiesSpawner : MonoBehaviour
         //Generate 1 enemy with enhanced health but less speed
         
         Enemy enemy = GenerateEnemy();
-        enemy._Life *= 3f;
+        enemy._Life *= 2.75f;
         enemy._Speed *= 0.7f;
         enemy.transform.position = Random.insideUnitCircle.normalized * _circleCollider.radius;
         enemy.transform.localScale *= 1.5f;
@@ -54,14 +54,23 @@ public class EnemiesSpawner : MonoBehaviour
     
     private void SpawnGroupeEnemy()
     {
-        //Generate 5 enemies with reduced health but more speed
+        //Generate 3 enemies with reduced health but more speed
 
+        Vector2 baseDirection = Random.insideUnitCircle.normalized; //Generate the general direction of spawn
+        
         for (int i = 0; i < 3; i++)
         {
             Enemy enemy = GenerateEnemy();
             enemy._Life *= 0.5f;
-            enemy._Speed *= 1.5f;
-            enemy.transform.position = Random.insideUnitCircle.normalized * _circleCollider.radius;
+            enemy._Speed *= 1.35f;
+
+            float angle = Random.Range(0, 30f) * Mathf.Sign(Random.Range(-1,0)); //Generate random angle offset
+            
+            Vector2 newDirection = new Vector2(
+                baseDirection.x * Mathf.Cos(angle * Mathf.Deg2Rad) - baseDirection.y * Mathf.Sin(angle * Mathf.Deg2Rad), 
+                baseDirection.x * Mathf.Sin(angle * Mathf.Deg2Rad) + baseDirection.y * Mathf.Cos(angle * Mathf.Deg2Rad)); //Rotate the direction by angle
+            
+            enemy.transform.position = newDirection.normalized * _circleCollider.radius;
             enemy.transform.localScale *= 0.5f;
             enemy.transform.position += _centerTower.position;
             enemy._Type = EnemyType.groupe;

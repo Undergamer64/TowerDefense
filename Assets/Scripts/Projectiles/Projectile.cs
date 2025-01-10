@@ -18,7 +18,7 @@ public class Projectile : MonoBehaviour, IPoolableObject<Projectile>
     
     public Pool<Projectile> _Pool { get; set; }
 
-    private void Start()
+    protected void Start()
     {
         _collider = GetComponent<CircleCollider2D>();
         _transform = GetComponent<Transform>();

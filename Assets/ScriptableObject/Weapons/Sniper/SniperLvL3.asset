@@ -17,8 +17,8 @@ MonoBehaviour:
   ReloadTime: 1.5
   BulletLifeTime: 0.25
   Pierce: 6
-  BulletSize: 0.1
+  BulletSize: 0.25
   Spread: 0
-  BulletSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  BulletSprite: {fileID: 21300000, guid: c8abb7046e85dcb4d84b2a45e91dc185, type: 3}
   CardSprite: {fileID: 21300000, guid: f50f5ea27fbce3b47a02ca06efa87736, type: 3}
   Price: 60

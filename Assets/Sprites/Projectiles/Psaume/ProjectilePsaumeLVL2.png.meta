@@ -1,0 +1,3211 @@
+fileFormatVersion: 2
+guid: 86f1c90c91dd19145abac07d73ff0c8e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4415982739792028105
+    second: ProjectilePsaumeLVL2_0
+  - first:
+      213: 1879052074146739549
+    second: ProjectilePsaumeLVL2_1
+  - first:
+      213: -6467284494207155229
+    second: ProjectilePsaumeLVL2_2
+  - first:
+      213: -4596547787104458825
+    second: ProjectilePsaumeLVL2_3
+  - first:
+      213: 7806934352085698328
+    second: ProjectilePsaumeLVL2_4
+  - first:
+      213: -1235556634844561166
+    second: ProjectilePsaumeLVL2_5
+  - first:
+      213: 7429115360674292492
+    second: ProjectilePsaumeLVL2_6
+  - first:
+      213: 7444449255687230736
+    second: ProjectilePsaumeLVL2_7
+  - first:
+      213: -4204342252233927075
+    second: ProjectilePsaumeLVL2_8
+  - first:
+      213: 8421256769360128985
+    second: ProjectilePsaumeLVL2_9
+  - first:
+      213: -8364173754923527593
+    second: ProjectilePsaumeLVL2_10
+  - first:
+      213: 7494959504259133206
+    second: ProjectilePsaumeLVL2_11
+  - first:
+      213: 9115402208229189573
+    second: ProjectilePsaumeLVL2_12
+  - first:
+      213: 2789590091308966939
+    second: ProjectilePsaumeLVL2_13
+  - first:
+      213: -4035818813216070744
+    second: ProjectilePsaumeLVL2_14
+  - first:
+      213: -6937914870699891864
+    second: ProjectilePsaumeLVL2_15
+  - first:
+      213: 3751305232147643968
+    second: ProjectilePsaumeLVL2_16
+  - first:
+      213: 3879367856233756953
+    second: ProjectilePsaumeLVL2_17
+  - first:
+      213: 860814649724649785
+    second: ProjectilePsaumeLVL2_18
+  - first:
+      213: 652281445670649954
+    second: ProjectilePsaumeLVL2_19
+  - first:
+      213: -1657478117078087267
+    second: ProjectilePsaumeLVL2_20
+  - first:
+      213: -2326431393278725064
+    second: ProjectilePsaumeLVL2_21
+  - first:
+      213: -4765363722237183466
+    second: ProjectilePsaumeLVL2_22
+  - first:
+      213: 1879667077578871843
+    second: ProjectilePsaumeLVL2_23
+  - first:
+      213: -507060326427022420
+    second: ProjectilePsaumeLVL2_24
+  - first:
+      213: -1624076321041241848
+    second: ProjectilePsaumeLVL2_25
+  - first:
+      213: 5785269279327913709
+    second: ProjectilePsaumeLVL2_26
+  - first:
+      213: -361307139171989071
+    second: ProjectilePsaumeLVL2_27
+  - first:
+      213: 7441803053867068574
+    second: ProjectilePsaumeLVL2_28
+  - first:
+      213: 4138022050799787169
+    second: ProjectilePsaumeLVL2_29
+  - first:
+      213: 8346468362225402415
+    second: ProjectilePsaumeLVL2_30
+  - first:
+      213: 285913985417500273
+    second: ProjectilePsaumeLVL2_31
+  - first:
+      213: -8243354934777810265
+    second: ProjectilePsaumeLVL2_32
+  - first:
+      213: 7830152045265467164
+    second: ProjectilePsaumeLVL2_33
+  - first:
+      213: -4745336763663432788
+    second: ProjectilePsaumeLVL2_34
+  - first:
+      213: 7267812697964459437
+    second: ProjectilePsaumeLVL2_35
+  - first:
+      213: -2392967665756610343
+    second: ProjectilePsaumeLVL2_36
+  - first:
+      213: 1401375784014971681
+    second: ProjectilePsaumeLVL2_37
+  - first:
+      213: -7889185141350917160
+    second: ProjectilePsaumeLVL2_38
+  - first:
+      213: 6323826676715009343
+    second: ProjectilePsaumeLVL2_39
+  - first:
+      213: -8156311404789287792
+    second: ProjectilePsaumeLVL2_40
+  - first:
+      213: 8935158841217495156
+    second: ProjectilePsaumeLVL2_41
+  - first:
+      213: 7711098359510857693
+    second: ProjectilePsaumeLVL2_42
+  - first:
+      213: -3502093388826083150
+    second: ProjectilePsaumeLVL2_43
+  - first:
+      213: -235482393608307611
+    second: ProjectilePsaumeLVL2_44
+  - first:
+      213: -421719818947576502
+    second: ProjectilePsaumeLVL2_45
+  - first:
+      213: 2966053764698599213
+    second: ProjectilePsaumeLVL2_46
+  - first:
+      213: -6805316336216689539
+    second: ProjectilePsaumeLVL2_47
+  - first:
+      213: -4498207071655210316
+    second: ProjectilePsaumeLVL2_48
+  - first:
+      213: -131981925302334644
+    second: ProjectilePsaumeLVL2_49
+  - first:
+      213: -7654540230598256934
+    second: ProjectilePsaumeLVL2_50
+  - first:
+      213: -1474559439363647846
+    second: ProjectilePsaumeLVL2_51
+  - first:
+      213: -1047794473184313769
+    second: ProjectilePsaumeLVL2_52
+  - first:
+      213: 755245475477313045
+    second: ProjectilePsaumeLVL2_53
+  - first:
+      213: 246624851924488024
+    second: ProjectilePsaumeLVL2_54
+  - first:
+      213: 7629046378790192839
+    second: ProjectilePsaumeLVL2_55
+  - first:
+      213: 7359106228080563978
+    second: ProjectilePsaumeLVL2_56
+  - first:
+      213: -8839216573785845933
+    second: ProjectilePsaumeLVL2_57
+  - first:
+      213: -2783493602785713560
+    second: ProjectilePsaumeLVL2_58
+  - first:
+      213: -849306819079829844
+    second: ProjectilePsaumeLVL2_59
+  - first:
+      213: 8735377125391525162
+    second: ProjectilePsaumeLVL2_60
+  - first:
+      213: -5098554506571016349
+    second: ProjectilePsaumeLVL2_61
+  - first:
+      213: 862647029907031505
+    second: ProjectilePsaumeLVL2_62
+  - first:
+      213: 8156878835253665071
+    second: ProjectilePsaumeLVL2_63
+  - first:
+      213: -8216095022023845085
+    second: ProjectilePsaumeLVL2_64
+  - first:
+      213: -1687176123661333772
+    second: ProjectilePsaumeLVL2_65
+  - first:
+      213: 5121737803853682353
+    second: ProjectilePsaumeLVL2_66
+  - first:
+      213: 6693483731756213090
+    second: ProjectilePsaumeLVL2_67
+  - first:
+      213: -636682033417051483
+    second: ProjectilePsaumeLVL2_68
+  - first:
+      213: 5592719152746695411
+    second: ProjectilePsaumeLVL2_69
+  - first:
+      213: -6078934767125377269
+    second: ProjectilePsaumeLVL2_70
+  - first:
+      213: -5944997987053777747
+    second: ProjectilePsaumeLVL2_71
+  - first:
+      213: 8785437920550154126
+    second: ProjectilePsaumeLVL2_72
+  - first:
+      213: -666563166639502563
+    second: ProjectilePsaumeLVL2_73
+  - first:
+      213: -4196997917260141201
+    second: ProjectilePsaumeLVL2_74
+  - first:
+      213: -1308357186206912530
+    second: ProjectilePsaumeLVL2_75
+  - first:
+      213: -3653507668678538146
+    second: ProjectilePsaumeLVL2_76
+  - first:
+      213: -2677697656400233037
+    second: ProjectilePsaumeLVL2_77
+  - first:
+      213: 3597740667618429132
+    second: ProjectilePsaumeLVL2_78
+  - first:
+      213: 672831528753421927
+    second: ProjectilePsaumeLVL2_79
+  - first:
+      213: -8177848626880921429
+    second: ProjectilePsaumeLVL2_80
+  - first:
+      213: -6454393737840325426
+    second: ProjectilePsaumeLVL2_81
+  - first:
+      213: 8085027104021211201
+    second: ProjectilePsaumeLVL2_82
+  - first:
+      213: -6796303503149563500
+    second: ProjectilePsaumeLVL2_83
+  - first:
+      213: 3313331192878209476
+    second: ProjectilePsaumeLVL2_84
+  - first:
+      213: 2374494612273852954
+    second: ProjectilePsaumeLVL2_85
+  - first:
+      213: 1658373846404778463
+    second: ProjectilePsaumeLVL2_86
+  - first:
+      213: 7539793717810318746
+    second: ProjectilePsaumeLVL2_87
+  - first:
+      213: -3365598485663984396
+    second: ProjectilePsaumeLVL2_88
+  - first:
+      213: 4963607324774518980
+    second: ProjectilePsaumeLVL2_89
+  - first:
+      213: 523127161692556616
+    second: ProjectilePsaumeLVL2_90
+  - first:
+      213: 3334259654981662632
+    second: ProjectilePsaumeLVL2_91
+  - first:
+      213: -450627829400057292
+    second: ProjectilePsaumeLVL2_92
+  - first:
+      213: 4689149197863839807
+    second: ProjectilePsaumeLVL2_93
+  - first:
+      213: 7150995306614144202
+    second: ProjectilePsaumeLVL2_94
+  - first:
+      213: 8875028834217132368
+    second: ProjectilePsaumeLVL2_95
+  - first:
+      213: 6979899659861255824
+    second: ProjectilePsaumeLVL2_96
+  - first:
+      213: -8747930436997448945
+    second: ProjectilePsaumeLVL2_97
+  - first:
+      213: 5488423573959574251
+    second: ProjectilePsaumeLVL2_98
+  - first:
+      213: -3269588409610237100
+    second: ProjectilePsaumeLVL2_99
+  - first:
+      213: 106792061512820361
+    second: ProjectilePsaumeLVL2_100
+  - first:
+      213: 8651826627311527005
+    second: ProjectilePsaumeLVL2_101
+  - first:
+      213: -7852627120100983334
+    second: ProjectilePsaumeLVL2_102
+  - first:
+      213: -6676783642527631156
+    second: ProjectilePsaumeLVL2_103
+  - first:
+      213: 9171227030816419317
+    second: ProjectilePsaumeLVL2_104
+  - first:
+      213: 2889474815791269676
+    second: ProjectilePsaumeLVL2_105
+  - first:
+      213: -8986303351327183812
+    second: ProjectilePsaumeLVL2_106
+  - first:
+      213: 6593241892854863680
+    second: ProjectilePsaumeLVL2_107
+  - first:
+      213: -4049027606949955993
+    second: ProjectilePsaumeLVL2_108
+  - first:
+      213: -6547369398652321201
+    second: ProjectilePsaumeLVL2_109
+  - first:
+      213: 8220212337323377667
+    second: ProjectilePsaumeLVL2_110
+  - first:
+      213: 3130011426362681472
+    second: ProjectilePsaumeLVL2_111
+  - first:
+      213: 3629537175991318224
+    second: ProjectilePsaumeLVL2_112
+  - first:
+      213: -7433942995915963091
+    second: ProjectilePsaumeLVL2_113
+  - first:
+      213: -5183693754396608015
+    second: ProjectilePsaumeLVL2_114
+  - first:
+      213: 7951460757055405983
+    second: ProjectilePsaumeLVL2_115
+  - first:
+      213: -7551249327298153714
+    second: ProjectilePsaumeLVL2_116
+  - first:
+      213: -4585772022137405307
+    second: ProjectilePsaumeLVL2_117
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1080
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_0
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 994
+        width: 20
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73e9074581747b2c0800000000000000
+      internalID: -4415982739792028105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_1
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 945
+        width: 50
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d553af1e7ebb31a10800000000000000
+      internalID: 1879052074146739549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_2
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 986
+        width: 66
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e3046584079f36a0800000000000000
+      internalID: -6467284494207155229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_3
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1033
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b7e7842428c530c0800000000000000
+      internalID: -4596547787104458825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_4
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 1035
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 817ccd82e6dc75c60800000000000000
+      internalID: 7806934352085698328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_5
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1035
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f0863079cb6adee0800000000000000
+      internalID: -1235556634844561166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_6
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 1035
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c03a3643f05891760800000000000000
+      internalID: 7429115360674292492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_7
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1004
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01598a9d72fff4760800000000000000
+      internalID: 7444449255687230736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_8
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 952
+        width: 56
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d565e654ffc27a5c0800000000000000
+      internalID: -4204342252233927075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_9
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1017
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db601cf9605ed470800000000000000
+      internalID: 8421256769360128985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_10
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1012
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7525322094c7ceb80800000000000000
+      internalID: -8364173754923527593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_11
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1020
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61fad4985f1730860800000000000000
+      internalID: 7494959504259133206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_12
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 1023
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c7ef4e430a608e70800000000000000
+      internalID: 9115402208229189573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_13
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 977
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b14ab6d786d96b620800000000000000
+      internalID: 2789590091308966939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_14
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 1003
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a3ea6c0c24edf7c0800000000000000
+      internalID: -4035818813216070744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_15
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 997
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 863680a0f2397bf90800000000000000
+      internalID: -6937914870699891864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_16
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 1002
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e793ebb305f0430800000000000000
+      internalID: 3751305232147643968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_17
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 995
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 919b1efe28846d530800000000000000
+      internalID: 3879367856233756953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_18
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 967
+        width: 12
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9314a46fc5a32fb00800000000000000
+      internalID: 860814649724649785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_19
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 990
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26007c6d48e5d0900800000000000000
+      internalID: 652281445670649954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_20
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 995
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d99c3982f647ff8e0800000000000000
+      internalID: -1657478117078087267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_21
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 988
+        width: 54
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 834fd4949fad6bfd0800000000000000
+      internalID: -2326431393278725064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_22
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 941
+        width: 58
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61af48e41f60eddb0800000000000000
+      internalID: -4765363722237183466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_23
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 992
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324d5178f3be51a10800000000000000
+      internalID: 1879667077578871843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_24
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 988
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cabaf93d15f86f8f0800000000000000
+      internalID: -507060326427022420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_25
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 961
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 809a634d03f1679e0800000000000000
+      internalID: -1624076321041241848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_26
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 950
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de6025402c7694050800000000000000
+      internalID: 5785269279327913709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_27
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 992
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b947da32116cfaf0800000000000000
+      internalID: -361307139171989071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_28
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 974
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9ce92af278964760800000000000000
+      internalID: 7441803053867068574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_29
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 967
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ac97aa81253d6930800000000000000
+      internalID: 4138022050799787169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_30
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 940
+        width: 67
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f224b7301cc94d370800000000000000
+      internalID: 8346468362225402415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_31
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 978
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17650214145c7f300800000000000000
+      internalID: 285913985417500273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_32
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 970
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2fa1bac58b99d80800000000000000
+      internalID: -8243354934777810265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_33
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 934
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17b85b9cc94aac60800000000000000
+      internalID: 7830152045265467164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_34
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 959
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca34d36fa5d252eb0800000000000000
+      internalID: -4745336763663432788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_35
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 960
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5be3c64257cd460800000000000000
+      internalID: 7267812697964459437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_36
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 965
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d0e49326987aced0800000000000000
+      internalID: -2392967665756610343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_37
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 957
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1230c0bc9dfa27310800000000000000
+      internalID: 1401375784014971681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_38
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 947
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8db1d72a9ebf38290800000000000000
+      internalID: -7889185141350917160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_39
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 953
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f35bcbe7bdeb2c750800000000000000
+      internalID: 6323826676715009343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_40
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 946
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0943118cdf5fece80800000000000000
+      internalID: -8156311404789287792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_41
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 953
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 470b57620af000c70800000000000000
+      internalID: 8935158841217495156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_42
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 952
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd7fdb25a13530b60800000000000000
+      internalID: 7711098359510857693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_43
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 922
+        width: 96
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b007c42e90166fc0800000000000000
+      internalID: -3502093388826083150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_44
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 945
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c3e1ab2066bbcf0800000000000000
+      internalID: -235482393608307611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_45
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 922
+        width: 105
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d33ec1f00c52af0800000000000000
+      internalID: -421719818947576502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_46
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 242
+        width: 888
+        height: 702
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2fe1952f2a892920800000000000000
+      internalID: 2966053764698599213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_47
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 887
+        width: 53
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7434ab29d8ae81a0800000000000000
+      internalID: -6805316336216689539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_48
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 613
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b257d730882391c0800000000000000
+      internalID: -4498207071655210316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_49
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 629
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b0591632b1b2ef0800000000000000
+      internalID: -131981925302334644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_50
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 627
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad6114c373c95c590800000000000000
+      internalID: -7654540230598256934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_51
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 626
+        width: 135
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a96d780a000598be0800000000000000
+      internalID: -1474559439363647846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_52
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 608
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e3b346a7c7571f0800000000000000
+      internalID: -1047794473184313769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_53
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 632
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516db0c22cb2b7a00800000000000000
+      internalID: 755245475477313045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_54
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 595
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f0eb30fff2c6300800000000000000
+      internalID: 246624851924488024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_55
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 611
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c605c6d241dfd960800000000000000
+      internalID: 7629046378790192839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_56
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 611
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a075b1dcf1cc02660800000000000000
+      internalID: 7359106228080563978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_57
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 608
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35fcfbabb5bc45580800000000000000
+      internalID: -8839216573785845933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_58
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 572
+        width: 71
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 862a26bd05b0f59d0800000000000000
+      internalID: -2783493602785713560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_59
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 601
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca60e67a2f7a634f0800000000000000
+      internalID: -849306819079829844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_60
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 576
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a25e80aa63b4a3970800000000000000
+      internalID: 8735377125391525162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_61
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 472
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3671ed780bb4e39b0800000000000000
+      internalID: -5098554506571016349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_62
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 416
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d5872837ecb8fb00800000000000000
+      internalID: 862647029907031505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_63
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 418
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2d523b651e033170800000000000000
+      internalID: 8156878835253665071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_64
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 414
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32bd963bb119afd80800000000000000
+      internalID: -8216095022023845085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_65
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 368
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa45ab2142f598e0800000000000000
+      internalID: -1687176123661333772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_66
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 405
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6536f7561141740800000000000000
+      internalID: 5121737803853682353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_67
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 408
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2636f2d8df704ec50800000000000000
+      internalID: 6693483731756213090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_68
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 406
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a2ad4b501d0a27f0800000000000000
+      internalID: -636682033417051483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_69
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 401
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fa8dfb10745d9d40800000000000000
+      internalID: 5592719152746695411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_70
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 400
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f48b0790943aba0800000000000000
+      internalID: -6078934767125377269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_71
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 393
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac4f3724df1f7da0800000000000000
+      internalID: -5944997987053777747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_72
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 408
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f63a2dd352ce970800000000000000
+      internalID: 8785437920550154126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_73
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 400
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1bc710e454efb6f0800000000000000
+      internalID: -666563166639502563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_74
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 387
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6da7a281a441c5c0800000000000000
+      internalID: -4196997917260141201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_75
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 367
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eefaec43218c7dde0800000000000000
+      internalID: -1308357186206912530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_76
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 392
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c0048e1222c4dc0800000000000000
+      internalID: -3653507668678538146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_77
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 399
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd3e562b28e6dad0800000000000000
+      internalID: -2677697656400233037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_78
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 397
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc88f57531ebde130800000000000000
+      internalID: 3597740667618429132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_79
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 353
+        width: 15
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ed709e5b0665900800000000000000
+      internalID: 672831528753421927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_80
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 383
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba0c8df7002728e80800000000000000
+      internalID: -8177848626880921429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_81
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 365
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc858f97136d66a0800000000000000
+      internalID: -6454393737840325426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_82
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 383
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 148e6969059c33070800000000000000
+      internalID: 8085027104021211201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_83
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 362
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4910705e8fdaea1a0800000000000000
+      internalID: -6796303503149563500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_84
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 370
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c91ab64a215bfd20800000000000000
+      internalID: 3313331192878209476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_85
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 360
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1279ade446e3f020800000000000000
+      internalID: 2374494612273852954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_86
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 376
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd941c31a3ab30710800000000000000
+      internalID: 1658373846404778463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_87
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 351
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9d4ec5507ab2a860800000000000000
+      internalID: 7539793717810318746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_88
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 365
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f4d76d420efa41d0800000000000000
+      internalID: -3365598485663984396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_89
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 366
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c056b5409642e440800000000000000
+      internalID: 4963607324774518980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_90
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 360
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d0b05c165824700800000000000000
+      internalID: 523127161692556616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_91
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 367
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a739149d7ba54e20800000000000000
+      internalID: 3334259654981662632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_92
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 366
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a44be606c0fb9f0800000000000000
+      internalID: -450627829400057292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_93
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 354
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f386b7de954331140800000000000000
+      internalID: 4689149197863839807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_94
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 345
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: accb83108507d3360800000000000000
+      internalID: 7150995306614144202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_95
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 358
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0518cdae3bf6a2b70800000000000000
+      internalID: 8875028834217132368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_96
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 345
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09666e172c59dd060800000000000000
+      internalID: 6979899659861255824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_97
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 345
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b70f6bd9b199680800000000000000
+      internalID: -8747930436997448945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_98
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 342
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be28dbe592cca2c40800000000000000
+      internalID: 5488423573959574251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_99
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 347
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b827b1aa610a2d0800000000000000
+      internalID: -3269588409610237100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_100
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 338
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 986ad4b60d66b7100800000000000000
+      internalID: 106792061512820361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_101
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 334
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d546b2b6a76711870800000000000000
+      internalID: 8651826627311527005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_102
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 333
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add38c04d3dd50390800000000000000
+      internalID: -7852627120100983334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_103
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 338
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc87009f6ac4753a0800000000000000
+      internalID: -6676783642527631156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_104
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 325
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fde54ea46eb64f70800000000000000
+      internalID: 9171227030816419317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_105
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 328
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c270dae290a791820800000000000000
+      internalID: 2889474815791269676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_106
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 310
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3cad34a6bc3a4380800000000000000
+      internalID: -8986303351327183812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_107
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 316
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04796dda196ef7b50800000000000000
+      internalID: 6593241892854863680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_108
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 310
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7667ff918d6fec7c0800000000000000
+      internalID: -4049027606949955993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_109
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 302
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f42c01ca8321325a0800000000000000
+      internalID: -6547369398652321201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_110
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 304
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3048178719f041270800000000000000
+      internalID: 8220212337323377667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_111
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 299
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 088e24b0fc8007b20800000000000000
+      internalID: 3130011426362681472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_112
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 306
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6790ad4d4be5230800000000000000
+      internalID: 3629537175991318224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_113
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 296
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d250def5b3455d890800000000000000
+      internalID: -7433942995915963091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_114
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 292
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f977c8aef1df08b0800000000000000
+      internalID: -5183693754396608015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_115
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 292
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ffebd0e63495e60800000000000000
+      internalID: 7951460757055405983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_116
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 296
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e037cfbbeb2943790800000000000000
+      internalID: -7551249327298153714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL2_117
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 284
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580439f64a01c50c0800000000000000
+      internalID: -4585772022137405307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ProjectilePsaumeLVL2_0: -4415982739792028105
+      ProjectilePsaumeLVL2_1: 1879052074146739549
+      ProjectilePsaumeLVL2_10: -8364173754923527593
+      ProjectilePsaumeLVL2_100: 106792061512820361
+      ProjectilePsaumeLVL2_101: 8651826627311527005
+      ProjectilePsaumeLVL2_102: -7852627120100983334
+      ProjectilePsaumeLVL2_103: -6676783642527631156
+      ProjectilePsaumeLVL2_104: 9171227030816419317
+      ProjectilePsaumeLVL2_105: 2889474815791269676
+      ProjectilePsaumeLVL2_106: -8986303351327183812
+      ProjectilePsaumeLVL2_107: 6593241892854863680
+      ProjectilePsaumeLVL2_108: -4049027606949955993
+      ProjectilePsaumeLVL2_109: -6547369398652321201
+      ProjectilePsaumeLVL2_11: 7494959504259133206
+      ProjectilePsaumeLVL2_110: 8220212337323377667
+      ProjectilePsaumeLVL2_111: 3130011426362681472
+      ProjectilePsaumeLVL2_112: 3629537175991318224
+      ProjectilePsaumeLVL2_113: -7433942995915963091
+      ProjectilePsaumeLVL2_114: -5183693754396608015
+      ProjectilePsaumeLVL2_115: 7951460757055405983
+      ProjectilePsaumeLVL2_116: -7551249327298153714
+      ProjectilePsaumeLVL2_117: -4585772022137405307
+      ProjectilePsaumeLVL2_12: 9115402208229189573
+      ProjectilePsaumeLVL2_13: 2789590091308966939
+      ProjectilePsaumeLVL2_14: -4035818813216070744
+      ProjectilePsaumeLVL2_15: -6937914870699891864
+      ProjectilePsaumeLVL2_16: 3751305232147643968
+      ProjectilePsaumeLVL2_17: 3879367856233756953
+      ProjectilePsaumeLVL2_18: 860814649724649785
+      ProjectilePsaumeLVL2_19: 652281445670649954
+      ProjectilePsaumeLVL2_2: -6467284494207155229
+      ProjectilePsaumeLVL2_20: -1657478117078087267
+      ProjectilePsaumeLVL2_21: -2326431393278725064
+      ProjectilePsaumeLVL2_22: -4765363722237183466
+      ProjectilePsaumeLVL2_23: 1879667077578871843
+      ProjectilePsaumeLVL2_24: -507060326427022420
+      ProjectilePsaumeLVL2_25: -1624076321041241848
+      ProjectilePsaumeLVL2_26: 5785269279327913709
+      ProjectilePsaumeLVL2_27: -361307139171989071
+      ProjectilePsaumeLVL2_28: 7441803053867068574
+      ProjectilePsaumeLVL2_29: 4138022050799787169
+      ProjectilePsaumeLVL2_3: -4596547787104458825
+      ProjectilePsaumeLVL2_30: 8346468362225402415
+      ProjectilePsaumeLVL2_31: 285913985417500273
+      ProjectilePsaumeLVL2_32: -8243354934777810265
+      ProjectilePsaumeLVL2_33: 7830152045265467164
+      ProjectilePsaumeLVL2_34: -4745336763663432788
+      ProjectilePsaumeLVL2_35: 7267812697964459437
+      ProjectilePsaumeLVL2_36: -2392967665756610343
+      ProjectilePsaumeLVL2_37: 1401375784014971681
+      ProjectilePsaumeLVL2_38: -7889185141350917160
+      ProjectilePsaumeLVL2_39: 6323826676715009343
+      ProjectilePsaumeLVL2_4: 7806934352085698328
+      ProjectilePsaumeLVL2_40: -8156311404789287792
+      ProjectilePsaumeLVL2_41: 8935158841217495156
+      ProjectilePsaumeLVL2_42: 7711098359510857693
+      ProjectilePsaumeLVL2_43: -3502093388826083150
+      ProjectilePsaumeLVL2_44: -235482393608307611
+      ProjectilePsaumeLVL2_45: -421719818947576502
+      ProjectilePsaumeLVL2_46: 2966053764698599213
+      ProjectilePsaumeLVL2_47: -6805316336216689539
+      ProjectilePsaumeLVL2_48: -4498207071655210316
+      ProjectilePsaumeLVL2_49: -131981925302334644
+      ProjectilePsaumeLVL2_5: -1235556634844561166
+      ProjectilePsaumeLVL2_50: -7654540230598256934
+      ProjectilePsaumeLVL2_51: -1474559439363647846
+      ProjectilePsaumeLVL2_52: -1047794473184313769
+      ProjectilePsaumeLVL2_53: 755245475477313045
+      ProjectilePsaumeLVL2_54: 246624851924488024
+      ProjectilePsaumeLVL2_55: 7629046378790192839
+      ProjectilePsaumeLVL2_56: 7359106228080563978
+      ProjectilePsaumeLVL2_57: -8839216573785845933
+      ProjectilePsaumeLVL2_58: -2783493602785713560
+      ProjectilePsaumeLVL2_59: -849306819079829844
+      ProjectilePsaumeLVL2_6: 7429115360674292492
+      ProjectilePsaumeLVL2_60: 8735377125391525162
+      ProjectilePsaumeLVL2_61: -5098554506571016349
+      ProjectilePsaumeLVL2_62: 862647029907031505
+      ProjectilePsaumeLVL2_63: 8156878835253665071
+      ProjectilePsaumeLVL2_64: -8216095022023845085
+      ProjectilePsaumeLVL2_65: -1687176123661333772
+      ProjectilePsaumeLVL2_66: 5121737803853682353
+      ProjectilePsaumeLVL2_67: 6693483731756213090
+      ProjectilePsaumeLVL2_68: -636682033417051483
+      ProjectilePsaumeLVL2_69: 5592719152746695411
+      ProjectilePsaumeLVL2_7: 7444449255687230736
+      ProjectilePsaumeLVL2_70: -6078934767125377269
+      ProjectilePsaumeLVL2_71: -5944997987053777747
+      ProjectilePsaumeLVL2_72: 8785437920550154126
+      ProjectilePsaumeLVL2_73: -666563166639502563
+      ProjectilePsaumeLVL2_74: -4196997917260141201
+      ProjectilePsaumeLVL2_75: -1308357186206912530
+      ProjectilePsaumeLVL2_76: -3653507668678538146
+      ProjectilePsaumeLVL2_77: -2677697656400233037
+      ProjectilePsaumeLVL2_78: 3597740667618429132
+      ProjectilePsaumeLVL2_79: 672831528753421927
+      ProjectilePsaumeLVL2_8: -4204342252233927075
+      ProjectilePsaumeLVL2_80: -8177848626880921429
+      ProjectilePsaumeLVL2_81: -6454393737840325426
+      ProjectilePsaumeLVL2_82: 8085027104021211201
+      ProjectilePsaumeLVL2_83: -6796303503149563500
+      ProjectilePsaumeLVL2_84: 3313331192878209476
+      ProjectilePsaumeLVL2_85: 2374494612273852954
+      ProjectilePsaumeLVL2_86: 1658373846404778463
+      ProjectilePsaumeLVL2_87: 7539793717810318746
+      ProjectilePsaumeLVL2_88: -3365598485663984396
+      ProjectilePsaumeLVL2_89: 4963607324774518980
+      ProjectilePsaumeLVL2_9: 8421256769360128985
+      ProjectilePsaumeLVL2_90: 523127161692556616
+      ProjectilePsaumeLVL2_91: 3334259654981662632
+      ProjectilePsaumeLVL2_92: -450627829400057292
+      ProjectilePsaumeLVL2_93: 4689149197863839807
+      ProjectilePsaumeLVL2_94: 7150995306614144202
+      ProjectilePsaumeLVL2_95: 8875028834217132368
+      ProjectilePsaumeLVL2_96: 6979899659861255824
+      ProjectilePsaumeLVL2_97: -8747930436997448945
+      ProjectilePsaumeLVL2_98: 5488423573959574251
+      ProjectilePsaumeLVL2_99: -3269588409610237100
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

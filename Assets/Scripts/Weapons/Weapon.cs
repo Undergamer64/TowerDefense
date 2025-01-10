@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.Serialization;
+using UnityEngine.UI;
 
 public class Weapon : MonoBehaviour
 {
@@ -30,7 +31,7 @@ public class Weapon : MonoBehaviour
     
     private void Awake()
     {
-        _projectilePool = new ComponentPool<Projectile>(_projectilePrefab, _poolCapacity, _poolPreloadQuantity);
+        _projectilePool = new ComponentPool<Projectile>(_projectilePrefab, _poolCapacity, _poolPreloadQuantity, transform);
         if (_Level > 0)
         {
             _weaponStat = _UpgradeStats[_Level];
@@ -172,7 +173,13 @@ public class Weapon : MonoBehaviour
         projectile.transform.position = transform.position + direction/10;
         projectile.DespawnCooldown = _weaponStat.BulletLifeTime; 
         projectile.Pierce = _weaponStat.Pierce;
+        projectile.GetComponent<SpriteRenderer>().sprite = _weaponStat.BulletSprite;
         projectile.transform.localScale = Vector3.one * _weaponStat.BulletSize;
+        if (projectile is CannonProjectile cannonProjectile)
+        {
+            cannonProjectile._explosionRange = _weaponStat.ExplosionRange;
+            cannonProjectile.UpdateRadiusDisplay();
+        }
         _projectilesAlive.Add(projectile);
         projectile.OnDestroy.RemoveAllListeners();
         projectile.OnDestroy.AddListener(RemoveProjectile);

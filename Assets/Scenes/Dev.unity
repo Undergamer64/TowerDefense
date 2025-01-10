@@ -1457,7 +1457,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 693e2083b5bb0734d98c7148a4672cc5, type: 2}
   - {fileID: 11400000, guid: e1aa80ea26aa0104a8005373934419db, type: 2}
   - {fileID: 11400000, guid: 20ec543b290a77e4cac042fb7c5ee4e3, type: 2}
-  - {fileID: 11400000, guid: 76df21f2aaabf7649bfa87cb0d994108, type: 2}
+  - {fileID: 11400000, guid: 820100a62ba736c42b040a5b7da01a3f, type: 2}
   _projectilePrefab: {fileID: 7244304073032304458, guid: 037684314b0c4e540958cef3351cd6c2, type: 3}
   _poolCapacity: 40
   _poolPreloadQuantity: 10
@@ -2171,7 +2171,7 @@ GameObject:
   - component: {fileID: 1199485334}
   - component: {fileID: 1199485335}
   m_Layer: 0
-  m_Name: Snipper
+  m_Name: Sniper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2571,6 +2571,11 @@ MonoBehaviour:
   _Type: 2
   _UpgradeStats:
   - {fileID: 11400000, guid: 678c11ce789343b4caddba170d75139d, type: 2}
+  - {fileID: 11400000, guid: c258dae8a72dc40448a36d3f367c5624, type: 2}
+  - {fileID: 11400000, guid: 24454b2e98f7bd5418e8abf79dc48708, type: 2}
+  - {fileID: 11400000, guid: bd72794e43782c4458433770c3591e84, type: 2}
+  - {fileID: 11400000, guid: 224a5dffa13a5ae4ab75947dc760015a, type: 2}
+  - {fileID: 11400000, guid: 56a3adf8eef773043b3bd1650d492551, type: 2}
   _projectilePrefab: {fileID: 7244304073032304458, guid: 211b5342e4f56e14286ace48eb733a56, type: 3}
   _poolCapacity: 4
   _poolPreloadQuantity: 2
@@ -4136,8 +4141,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _shop: {fileID: 999018766}
   _normalEnemyCost: 1
-  _bigEnemyCost: 4
-  _groupeEnemyCost: 4
+  _bigEnemyCost: 3
+  _groupeEnemyCost: 3
   _spawner: {fileID: 2074803399}
   _maxEnemySlots: 10
   _maxRoundCooldown: 2
