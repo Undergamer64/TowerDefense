@@ -38,6 +38,7 @@ public class MenuScript : MonoBehaviour
 
     public void Play()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene("Game");
     }
 
@@ -48,6 +49,7 @@ public class MenuScript : MonoBehaviour
 
     public void QuitToMainMenu()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene("MainMenu");
     }
 }
