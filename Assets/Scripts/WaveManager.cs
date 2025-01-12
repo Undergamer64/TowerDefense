@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Serialization;
 using Random = UnityEngine.Random;
@@ -8,6 +9,11 @@ using Random = UnityEngine.Random;
 public class WaveManager : MonoBehaviour
 {
     [SerializeField] private Shop _shop;
+
+    [SerializeField] private GameObject _WinScreen;
+    
+    [SerializeField] private TextMeshProUGUI _waveText;
+    private int _waves = 1;
     
     [SerializeField] private int _normalEnemyCost = 1;
     [SerializeField] private int _bigEnemyCost = 2;
@@ -34,6 +40,7 @@ public class WaveManager : MonoBehaviour
         _spawnCooldown = _maxSpawnCooldown;
         _enemySlots = _maxEnemySlots;
         _spawner.OnRoundEnd.AddListener(RoundFinished);
+        _waveText.text = "Wave : " + _waves.ToString() + " / 15";
     }
 
     // Update is called once per frame
@@ -44,10 +51,17 @@ public class WaveManager : MonoBehaviour
             _roundCooldown -= Time.deltaTime;
             if (!(_roundCooldown <= 0)) return;
             _enemySlots = _maxEnemySlots;
+            _roundCooldown = _maxRoundCooldown;
+            if (_waves == 15)
+            {
+                _WinScreen.SetActive(true);
+                return;
+            }
+            _waves++;
             _isRoundFinished = false;
             _spawning = true;
-            _roundCooldown = _maxRoundCooldown;
             _shop.OpenShop();
+            _waveText.text = "Wave : " + _waves.ToString() + " / 15";
         }
         else if (_spawning)
         {

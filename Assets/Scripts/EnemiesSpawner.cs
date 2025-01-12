@@ -11,6 +11,8 @@ public enum EnemyType
 
 public class EnemiesSpawner : MonoBehaviour
 {
+    [SerializeField] private List<Sprite> _enemySprites;
+    
     [SerializeField] private Transform _centerTower;
 
     [SerializeField] private GameObject _enemyPrefab;
@@ -37,6 +39,7 @@ public class EnemiesSpawner : MonoBehaviour
         enemy.transform.position = Random.insideUnitCircle.normalized * _circleCollider.radius;
         enemy.transform.position += _centerTower.position;
         enemy._Type = EnemyType.normal;
+        ChangeEnemySprite(enemy, enemy.transform.position);
     }
     
     private void SpawnBigEnemy()
@@ -50,6 +53,7 @@ public class EnemiesSpawner : MonoBehaviour
         enemy.transform.localScale *= 1.5f;
         enemy.transform.position += _centerTower.position;
         enemy._Type = EnemyType.big;
+        ChangeEnemySprite(enemy, enemy.transform.position);
     }
     
     private void SpawnGroupeEnemy()
@@ -74,6 +78,7 @@ public class EnemiesSpawner : MonoBehaviour
             enemy.transform.localScale *= 0.5f;
             enemy.transform.position += _centerTower.position;
             enemy._Type = EnemyType.groupe;
+            ChangeEnemySprite(enemy, enemy.transform.position);
         }
     }
     
@@ -104,6 +109,20 @@ public class EnemiesSpawner : MonoBehaviour
         enemy._Speed = _enemyPrefab.GetComponent<Enemy>()._Speed;
         enemy._Type = EnemyType.normal;
         return enemy;
+    }
+
+    private void ChangeEnemySprite(Enemy enemy, Vector3 pos)
+    {
+        float angle = ((Mathf.Atan2(pos.y, pos.x) - Mathf.PI/2) * Mathf.Rad2Deg) + 45f/2f;
+
+        if (angle < 0)
+        {
+            angle += 360;
+        }
+        
+        enemy.GetComponent<SpriteRenderer>().sprite = _enemySprites[Mathf.FloorToInt(angle/45f)];
+
+        enemy.GetComponent<SpriteRenderer>().flipX = (angle - 45f/2f <= 180);
     }
     
     private void Update()
