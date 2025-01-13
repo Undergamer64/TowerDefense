@@ -60,7 +60,7 @@ public class Shop : MonoBehaviour
                 if (!_tower.TryUpgradeWeapon(weapon._Type)) return;
                 Button.gameObject.SetActive(false);
             });
-            Button.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "Price :" + weapon.GetPrice();
+            Button.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = weapon.GetPrice().ToString();
             UpgradableWeapons.Remove(weapon);
         }
         
@@ -85,7 +85,7 @@ public class Shop : MonoBehaviour
             if (!_tower.TryHeal(HealIndex)) return;
             _healButton.gameObject.SetActive(false);
         });
-        _healButton.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "Price :" + (HealIndex + 2) * 5;
+        _healButton.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = ((HealIndex + 2) * 5).ToString();
     }
 
     public void CloseShop()

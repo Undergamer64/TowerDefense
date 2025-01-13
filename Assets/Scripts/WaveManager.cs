@@ -40,7 +40,7 @@ public class WaveManager : MonoBehaviour
         _spawnCooldown = _maxSpawnCooldown;
         _enemySlots = _maxEnemySlots;
         _spawner.OnRoundEnd.AddListener(RoundFinished);
-        _waveText.text = "Wave : " + _waves.ToString() + " / 15";
+        _waveText.text = _waves.ToString() + "/15";
     }
 
     // Update is called once per frame
@@ -61,7 +61,7 @@ public class WaveManager : MonoBehaviour
             _isRoundFinished = false;
             _spawning = true;
             _shop.OpenShop();
-            _waveText.text = "Wave : " + _waves.ToString() + " / 15";
+            _waveText.text = _waves.ToString() + "/15";
         }
         else if (_spawning)
         {

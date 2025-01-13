@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2caa42046bc2cd14d9ad714a1d4a4ccd
+guid: 13d17beb66a76b04488345603419bb0c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8149416077584589801
-    second: JokerCard_0
+      213: 5627268673983957351
+    second: CreditsMenu_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: JokerCard_0
+      name: CreditsMenu_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1080
-        height: 1700
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 71c96b0414577ee80800000000000000
-      internalID: -8149416077584589801
+      spriteID: 7694f706b03181e40800000000000000
+      internalID: 5627268673983957351
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      JokerCard_0: -8149416077584589801
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

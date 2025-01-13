@@ -129,7 +129,7 @@ public class CardsManager : MonoBehaviour
     {
         if (_weaponsDisplayedText)
         {
-            _weaponsDisplayedText.text = _weaponsEnabled.ToString() + '/' + _maxWeaponsEnabled.ToString() + " Active Cards";
+            _weaponsDisplayedText.text = _weaponsEnabled.ToString() + '/' + _maxWeaponsEnabled.ToString() + " Cardes actives";
         }
 
         _cards[cardIndex].image.color = !_cardsActive[cardIndex] ? Color.gray : Color.white;
