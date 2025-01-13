@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 13d17beb66a76b04488345603419bb0c
+guid: 0271e1147ff502e4dbb34fc49ef6652c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5627268673983957351
-    second: CreditsMenu_0
+      213: 4154582438525828542
+    second: RedRetryButton_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CreditsMenu_0
+      name: RedRetryButton_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 943
+        y: 142
+        width: 123
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7694f706b03181e40800000000000000
-      internalID: 5627268673983957351
+      spriteID: ebd786647ba08a930800000000000000
+      internalID: 4154582438525828542
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      CreditsMenu_0: 5627268673983957351
+      RedRetryButton_0: 4154582438525828542
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

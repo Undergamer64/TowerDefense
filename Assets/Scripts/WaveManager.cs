@@ -55,6 +55,7 @@ public class WaveManager : MonoBehaviour
             if (_waves == 15)
             {
                 _WinScreen.SetActive(true);
+                Time.timeScale = 0;
                 return;
             }
             _waves++;

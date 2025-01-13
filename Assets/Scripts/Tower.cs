@@ -70,6 +70,7 @@ public class Tower : MonoBehaviour
 
         Time.timeScale = 0;
         LoseMenu.SetActive(true);
+        Time.timeScale = 0;
     }
 
     public bool TryUpgradeWeapon(WeaponType type)
