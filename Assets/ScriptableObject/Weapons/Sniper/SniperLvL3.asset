@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d416dc26ebcf3b04588e4917f356e540, type: 3}
+  m_Name: SniperLvL3
+  m_EditorClassIdentifier: 
+  BulletDamage: 4
+  Range: 4.5
+  ReloadTime: 1.5
+  BulletLifeTime: 0.25
+  Pierce: 6
+  BulletSize: 0.25
+  Spread: 0
+  BulletSprite: {fileID: 21300000, guid: c8abb7046e85dcb4d84b2a45e91dc185, type: 3}
+  CardSprite: {fileID: 21300000, guid: f50f5ea27fbce3b47a02ca06efa87736, type: 3}
+  Price: 60

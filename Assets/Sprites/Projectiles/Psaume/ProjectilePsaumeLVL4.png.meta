@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: b6c2c4889f2ee584c926ab0dc5920a99
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3144947068891298993
+    second: ProjectilePsaumeLVL4_0
+  - first:
+      213: -7163422001712238414
+    second: ProjectilePsaumeLVL4_1
+  - first:
+      213: -1007062934896749335
+    second: ProjectilePsaumeLVL4_2
+  - first:
+      213: 839148204031880971
+    second: ProjectilePsaumeLVL4_3
+  - first:
+      213: 881443604038894117
+    second: ProjectilePsaumeLVL4_4
+  - first:
+      213: 5475913767291321596
+    second: ProjectilePsaumeLVL4_5
+  - first:
+      213: 5860789254750207559
+    second: ProjectilePsaumeLVL4_6
+  - first:
+      213: 7430208666037611260
+    second: ProjectilePsaumeLVL4_7
+  - first:
+      213: -8444004572326256681
+    second: ProjectilePsaumeLVL4_8
+  - first:
+      213: 2682117337370657822
+    second: ProjectilePsaumeLVL4_9
+  - first:
+      213: 3218285642362273275
+    second: ProjectilePsaumeLVL4_10
+  - first:
+      213: 5017650411815784382
+    second: ProjectilePsaumeLVL4_11
+  - first:
+      213: 4096408404535475523
+    second: ProjectilePsaumeLVL4_12
+  - first:
+      213: 5770899903327661693
+    second: ProjectilePsaumeLVL4_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1080
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL4_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1080
+        height: 1572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f430451bd47ea54d0800000000000000
+      internalID: -3144947068891298993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL4_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1562
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b079b394a9669c90800000000000000
+      internalID: -7163422001712238414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL4_2
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1564
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e4540ba8913602f0800000000000000
+      internalID: -1007062934896749335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL4_3
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1567
+        width: 43
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f2a3778d045ab00800000000000000
+      internalID: 839148204031880971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL4_4
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1549
+        width: 203
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 522474ca9448b3c00800000000000000
+      internalID: 881443604038894117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL4_5
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1567
+        width: 39
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfcf1180f8a5efb40800000000000000
+      internalID: 5475913767291321596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL4_6
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1559
+        width: 71
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74effc086c4b55150800000000000000
+      internalID: 5860789254750207559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL4_7
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1553
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfa63323a676d1760800000000000000
+      internalID: 7430208666037611260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL4_8
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1556
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df18b8649ed0da80800000000000000
+      internalID: -8444004572326256681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL4_9
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1549
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1405e3028bc83520800000000000000
+      internalID: 2682117337370657822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL4_10
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1549
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd3eb29db5a9ac20800000000000000
+      internalID: 3218285642362273275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL4_11
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1542
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf4f53077642a540800000000000000
+      internalID: 5017650411815784382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL4_12
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 1542
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34df24f7dbd59d830800000000000000
+      internalID: 4096408404535475523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectilePsaumeLVL4_13
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1542
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e6e24f2ea561050800000000000000
+      internalID: 5770899903327661693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ProjectilePsaumeLVL4_0: -3144947068891298993
+      ProjectilePsaumeLVL4_1: -7163422001712238414
+      ProjectilePsaumeLVL4_10: 3218285642362273275
+      ProjectilePsaumeLVL4_11: 5017650411815784382
+      ProjectilePsaumeLVL4_12: 4096408404535475523
+      ProjectilePsaumeLVL4_13: 5770899903327661693
+      ProjectilePsaumeLVL4_2: -1007062934896749335
+      ProjectilePsaumeLVL4_3: 839148204031880971
+      ProjectilePsaumeLVL4_4: 881443604038894117
+      ProjectilePsaumeLVL4_5: 5475913767291321596
+      ProjectilePsaumeLVL4_6: 5860789254750207559
+      ProjectilePsaumeLVL4_7: 7430208666037611260
+      ProjectilePsaumeLVL4_8: -8444004572326256681
+      ProjectilePsaumeLVL4_9: 2682117337370657822
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

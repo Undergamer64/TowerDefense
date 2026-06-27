@@ -1,0 +1,897 @@
+fileFormatVersion: 2
+guid: 505a38217e7db9f45ad3342d3f20ca7d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6648110134894182652
+    second: PorjectileHostieLVL1_0
+  - first:
+      213: 1179314521238938183
+    second: PorjectileHostieLVL1_1
+  - first:
+      213: 7203007381119883846
+    second: PorjectileHostieLVL1_2
+  - first:
+      213: -164097248892976638
+    second: PorjectileHostieLVL1_3
+  - first:
+      213: -56167059165934756
+    second: PorjectileHostieLVL1_4
+  - first:
+      213: -1143003707166759243
+    second: PorjectileHostieLVL1_5
+  - first:
+      213: -7353263428555594400
+    second: PorjectileHostieLVL1_6
+  - first:
+      213: -1046730504465167690
+    second: PorjectileHostieLVL1_7
+  - first:
+      213: -6457723089581496608
+    second: PorjectileHostieLVL1_8
+  - first:
+      213: 1794720238131840326
+    second: PorjectileHostieLVL1_9
+  - first:
+      213: -1605036207716253313
+    second: PorjectileHostieLVL1_10
+  - first:
+      213: 4575288293011393150
+    second: PorjectileHostieLVL1_11
+  - first:
+      213: -7191495346560066988
+    second: PorjectileHostieLVL1_12
+  - first:
+      213: 3132285000654218000
+    second: PorjectileHostieLVL1_13
+  - first:
+      213: 3131190038410131739
+    second: PorjectileHostieLVL1_14
+  - first:
+      213: 9028788404151534649
+    second: PorjectileHostieLVL1_15
+  - first:
+      213: 5098624954058241941
+    second: PorjectileHostieLVL1_16
+  - first:
+      213: 3656503509370762051
+    second: PorjectileHostieLVL1_17
+  - first:
+      213: 6491841306576955234
+    second: PorjectileHostieLVL1_18
+  - first:
+      213: 2410060348866349488
+    second: PorjectileHostieLVL1_19
+  - first:
+      213: -7468615333271219461
+    second: PorjectileHostieLVL1_20
+  - first:
+      213: -4949826159360163290
+    second: PorjectileHostieLVL1_21
+  - first:
+      213: 2794002908309378923
+    second: PorjectileHostieLVL1_22
+  - first:
+      213: -1602339649666366293
+    second: PorjectileHostieLVL1_23
+  - first:
+      213: -6847181990995083949
+    second: PorjectileHostieLVL1_24
+  - first:
+      213: 3809710003115293179
+    second: PorjectileHostieLVL1_25
+  - first:
+      213: 4439530280750430587
+    second: PorjectileHostieLVL1_26
+  - first:
+      213: 8163809784355248304
+    second: PorjectileHostieLVL1_27
+  - first:
+      213: 5986394409183148747
+    second: PorjectileHostieLVL1_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1080
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PorjectileHostieLVL1_0
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1285
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0ca0ac1f4d24c50800000000000000
+      internalID: 6648110134894182652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PorjectileHostieLVL1_1
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1282
+        width: 82
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74228ec0f44cd5010800000000000000
+      internalID: 1179314521238938183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PorjectileHostieLVL1_2
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1278
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ada2acc0936f360800000000000000
+      internalID: 7203007381119883846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PorjectileHostieLVL1_3
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1262
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2028d1beb6209bdf0800000000000000
+      internalID: -164097248892976638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PorjectileHostieLVL1_4
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1265
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5b06567b54783ff0800000000000000
+      internalID: -56167059165934756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PorjectileHostieLVL1_5
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1260
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b6ee592f2c3320f0800000000000000
+      internalID: -1143003707166759243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PorjectileHostieLVL1_6
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 1269
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 065a219fed5f3f990800000000000000
+      internalID: -7353263428555594400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PorjectileHostieLVL1_7
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 1255
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bac9c9e6244971f0800000000000000
+      internalID: -1046730504465167690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PorjectileHostieLVL1_8
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1250
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e628a3801f8166a0800000000000000
+      internalID: -6457723089581496608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PorjectileHostieLVL1_9
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1250
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6458d093c8028e810800000000000000
+      internalID: 1794720238131840326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PorjectileHostieLVL1_10
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1248
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f71ce6ba214c9b9e0800000000000000
+      internalID: -1605036207716253313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PorjectileHostieLVL1_11
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1255
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a82f92670be7f30800000000000000
+      internalID: 4575288293011393150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PorjectileHostieLVL1_12
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1241
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a9960a51da23c90800000000000000
+      internalID: -7191495346560066988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PorjectileHostieLVL1_13
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 422
+        width: 828
+        height: 825
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 013674fcc9c187b20800000000000000
+      internalID: 3132285000654218000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PorjectileHostieLVL1_14
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1227
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b197dab00c8347b20800000000000000
+      internalID: 3131190038410131739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PorjectileHostieLVL1_15
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1239
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9344e9d8733bc4d70800000000000000
+      internalID: 9028788404151534649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PorjectileHostieLVL1_16
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1242
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 597759dc164f1c640800000000000000
+      internalID: 5098624954058241941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PorjectileHostieLVL1_17
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1231
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 343730c91928eb230800000000000000
+      internalID: 3656503509370762051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PorjectileHostieLVL1_18
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1240
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2672ab8e547a71a50800000000000000
+      internalID: 6491841306576955234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PorjectileHostieLVL1_19
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1227
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b9ce654e11427120800000000000000
+      internalID: 2410060348866349488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PorjectileHostieLVL1_20
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 1221
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf25550cce52a5890800000000000000
+      internalID: -7468615333271219461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PorjectileHostieLVL1_21
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 1238
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 622c667555fae4bb0800000000000000
+      internalID: -4949826159360163290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PorjectileHostieLVL1_22
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1225
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b67503387da46c620800000000000000
+      internalID: 2794002908309378923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PorjectileHostieLVL1_23
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 1149
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba4cc14049853c9e0800000000000000
+      internalID: -1602339649666366293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PorjectileHostieLVL1_24
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 615
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d3942d14ce9f0a0800000000000000
+      internalID: -6847181990995083949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PorjectileHostieLVL1_25
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 619
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf970f8201fced430800000000000000
+      internalID: 3809710003115293179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PorjectileHostieLVL1_26
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 575
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7938b9c4416c9d30800000000000000
+      internalID: 4439530280750430587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PorjectileHostieLVL1_27
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 579
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b85a52cebdab4170800000000000000
+      internalID: 8163809784355248304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PorjectileHostieLVL1_28
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 536
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcafeb47ff1f31350800000000000000
+      internalID: 5986394409183148747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PorjectileHostieLVL1_0: 6648110134894182652
+      PorjectileHostieLVL1_1: 1179314521238938183
+      PorjectileHostieLVL1_10: -1605036207716253313
+      PorjectileHostieLVL1_11: 4575288293011393150
+      PorjectileHostieLVL1_12: -7191495346560066988
+      PorjectileHostieLVL1_13: 3132285000654218000
+      PorjectileHostieLVL1_14: 3131190038410131739
+      PorjectileHostieLVL1_15: 9028788404151534649
+      PorjectileHostieLVL1_16: 5098624954058241941
+      PorjectileHostieLVL1_17: 3656503509370762051
+      PorjectileHostieLVL1_18: 6491841306576955234
+      PorjectileHostieLVL1_19: 2410060348866349488
+      PorjectileHostieLVL1_2: 7203007381119883846
+      PorjectileHostieLVL1_20: -7468615333271219461
+      PorjectileHostieLVL1_21: -4949826159360163290
+      PorjectileHostieLVL1_22: 2794002908309378923
+      PorjectileHostieLVL1_23: -1602339649666366293
+      PorjectileHostieLVL1_24: -6847181990995083949
+      PorjectileHostieLVL1_25: 3809710003115293179
+      PorjectileHostieLVL1_26: 4439530280750430587
+      PorjectileHostieLVL1_27: 8163809784355248304
+      PorjectileHostieLVL1_28: 5986394409183148747
+      PorjectileHostieLVL1_3: -164097248892976638
+      PorjectileHostieLVL1_4: -56167059165934756
+      PorjectileHostieLVL1_5: -1143003707166759243
+      PorjectileHostieLVL1_6: -7353263428555594400
+      PorjectileHostieLVL1_7: -1046730504465167690
+      PorjectileHostieLVL1_8: -6457723089581496608
+      PorjectileHostieLVL1_9: 1794720238131840326
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

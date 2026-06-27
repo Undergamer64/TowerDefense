@@ -1,0 +1,897 @@
+fileFormatVersion: 2
+guid: fc620e3e64fbc4b4caac01bc377c31a1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5001473864846336793
+    second: ProjectileHostieLVL2_0
+  - first:
+      213: 6826570871765657288
+    second: ProjectileHostieLVL2_1
+  - first:
+      213: -3011218909593937889
+    second: ProjectileHostieLVL2_2
+  - first:
+      213: -6374776048368141397
+    second: ProjectileHostieLVL2_3
+  - first:
+      213: -1311793328374106247
+    second: ProjectileHostieLVL2_4
+  - first:
+      213: -8155480459220717295
+    second: ProjectileHostieLVL2_5
+  - first:
+      213: 2952957124664023323
+    second: ProjectileHostieLVL2_6
+  - first:
+      213: -76341754486777146
+    second: ProjectileHostieLVL2_7
+  - first:
+      213: 3219648077269948902
+    second: ProjectileHostieLVL2_8
+  - first:
+      213: 7756550863411665567
+    second: ProjectileHostieLVL2_9
+  - first:
+      213: -102469205100149534
+    second: ProjectileHostieLVL2_10
+  - first:
+      213: -7636491780509447757
+    second: ProjectileHostieLVL2_11
+  - first:
+      213: 9216772989349598376
+    second: ProjectileHostieLVL2_12
+  - first:
+      213: 4561720232259556185
+    second: ProjectileHostieLVL2_13
+  - first:
+      213: -7292725281449805500
+    second: ProjectileHostieLVL2_14
+  - first:
+      213: -3077956318475135687
+    second: ProjectileHostieLVL2_15
+  - first:
+      213: -5396700390131119717
+    second: ProjectileHostieLVL2_16
+  - first:
+      213: -5733463608566470300
+    second: ProjectileHostieLVL2_17
+  - first:
+      213: -1656907830639034956
+    second: ProjectileHostieLVL2_18
+  - first:
+      213: 5399180639146517400
+    second: ProjectileHostieLVL2_19
+  - first:
+      213: -3423667111173839952
+    second: ProjectileHostieLVL2_20
+  - first:
+      213: -3430952184506235224
+    second: ProjectileHostieLVL2_21
+  - first:
+      213: 7845916387219854576
+    second: ProjectileHostieLVL2_22
+  - first:
+      213: 4447295710022805962
+    second: ProjectileHostieLVL2_23
+  - first:
+      213: -9179899732769737025
+    second: ProjectileHostieLVL2_24
+  - first:
+      213: -1198454197010429011
+    second: ProjectileHostieLVL2_25
+  - first:
+      213: 3083858422121618255
+    second: ProjectileHostieLVL2_26
+  - first:
+      213: 190504991480099188
+    second: ProjectileHostieLVL2_27
+  - first:
+      213: 1514445096143717547
+    second: ProjectileHostieLVL2_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1080
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ProjectileHostieLVL2_0
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1285
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913e09b2bfdc86540800000000000000
+      internalID: 5001473864846336793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectileHostieLVL2_1
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1282
+        width: 82
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c6ee950a0adcbe50800000000000000
+      internalID: 6826570871765657288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectileHostieLVL2_2
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1278
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f18d6b81b500636d0800000000000000
+      internalID: -3011218909593937889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectileHostieLVL2_3
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1262
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab395285fe3887a0800000000000000
+      internalID: -6374776048368141397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectileHostieLVL2_4
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1265
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 977b8830be29bcde0800000000000000
+      internalID: -1311793328374106247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectileHostieLVL2_5
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1260
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111728f5bb9e1de80800000000000000
+      internalID: -8155480459220717295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectileHostieLVL2_6
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 1269
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b19de840cd20bf820800000000000000
+      internalID: 2952957124664023323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectileHostieLVL2_7
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 1255
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca194a2497c0fef0800000000000000
+      internalID: -76341754486777146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectileHostieLVL2_8
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1250
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e9d17b2edc7eac20800000000000000
+      internalID: 3219648077269948902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectileHostieLVL2_9
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1250
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ad6ef0aedc4ab60800000000000000
+      internalID: 7756550863411665567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectileHostieLVL2_10
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1248
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e4c6950dc4f39ef0800000000000000
+      internalID: -102469205100149534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectileHostieLVL2_11
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1255
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b94b8c7f2bb50690800000000000000
+      internalID: -7636491780509447757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectileHostieLVL2_12
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1241
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a41995833e88ef70800000000000000
+      internalID: 9216772989349598376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectileHostieLVL2_13
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 422
+        width: 828
+        height: 825
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9531b88d16c7e4f30800000000000000
+      internalID: 4561720232259556185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectileHostieLVL2_14
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1227
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4497caabef80bca90800000000000000
+      internalID: -7292725281449805500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectileHostieLVL2_15
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1239
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 935de1b3907e845d0800000000000000
+      internalID: -3077956318475135687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectileHostieLVL2_16
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1242
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b99c50f86911b15b0800000000000000
+      internalID: -5396700390131119717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectileHostieLVL2_17
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1231
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46924c6a935ae60b0800000000000000
+      internalID: -5733463608566470300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectileHostieLVL2_18
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1240
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd72315b1b7109e0800000000000000
+      internalID: -1656907830639034956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectileHostieLVL2_19
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1227
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893ae7a6f2ebdea40800000000000000
+      internalID: 5399180639146517400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectileHostieLVL2_20
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 1221
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b3ab49d6e0bc70d0800000000000000
+      internalID: -3423667111173839952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectileHostieLVL2_21
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 1238
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6c7298a2fc260d0800000000000000
+      internalID: -3430952184506235224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectileHostieLVL2_22
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1225
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f4d7ad726b42ec60800000000000000
+      internalID: 7845916387219854576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectileHostieLVL2_23
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 1149
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac9270fa2e7f7bd30800000000000000
+      internalID: 4447295710022805962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectileHostieLVL2_24
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 615
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb67e8a84d17a9080800000000000000
+      internalID: -9179899732769737025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectileHostieLVL2_25
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 619
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab0e9be14c3e5fe0800000000000000
+      internalID: -1198454197010429011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectileHostieLVL2_26
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 575
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4bd72c55e01cca20800000000000000
+      internalID: 3083858422121618255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectileHostieLVL2_27
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 579
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4713c19c74fc4a200800000000000000
+      internalID: 190504991480099188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProjectileHostieLVL2_28
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 536
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba48a738ac3640510800000000000000
+      internalID: 1514445096143717547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ProjectileHostieLVL2_0: 5001473864846336793
+      ProjectileHostieLVL2_1: 6826570871765657288
+      ProjectileHostieLVL2_10: -102469205100149534
+      ProjectileHostieLVL2_11: -7636491780509447757
+      ProjectileHostieLVL2_12: 9216772989349598376
+      ProjectileHostieLVL2_13: 4561720232259556185
+      ProjectileHostieLVL2_14: -7292725281449805500
+      ProjectileHostieLVL2_15: -3077956318475135687
+      ProjectileHostieLVL2_16: -5396700390131119717
+      ProjectileHostieLVL2_17: -5733463608566470300
+      ProjectileHostieLVL2_18: -1656907830639034956
+      ProjectileHostieLVL2_19: 5399180639146517400
+      ProjectileHostieLVL2_2: -3011218909593937889
+      ProjectileHostieLVL2_20: -3423667111173839952
+      ProjectileHostieLVL2_21: -3430952184506235224
+      ProjectileHostieLVL2_22: 7845916387219854576
+      ProjectileHostieLVL2_23: 4447295710022805962
+      ProjectileHostieLVL2_24: -9179899732769737025
+      ProjectileHostieLVL2_25: -1198454197010429011
+      ProjectileHostieLVL2_26: 3083858422121618255
+      ProjectileHostieLVL2_27: 190504991480099188
+      ProjectileHostieLVL2_28: 1514445096143717547
+      ProjectileHostieLVL2_3: -6374776048368141397
+      ProjectileHostieLVL2_4: -1311793328374106247
+      ProjectileHostieLVL2_5: -8155480459220717295
+      ProjectileHostieLVL2_6: 2952957124664023323
+      ProjectileHostieLVL2_7: -76341754486777146
+      ProjectileHostieLVL2_8: 3219648077269948902
+      ProjectileHostieLVL2_9: 7756550863411665567
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
